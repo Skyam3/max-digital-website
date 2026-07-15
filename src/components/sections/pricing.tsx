@@ -14,6 +14,10 @@ import { cn } from "@/lib/utils";
 interface Plan {
   name: string;
   price: string;
+  /** Custom's price is "Auf Anfrage" / "Let's talk" — text, not a number.
+   * IBM Plex Mono is reserved for real price values (Brand Book v1,
+   * Typography Philosophy), so this opts that one plan out of price-mono. */
+  priceOnRequest?: boolean;
   description: string;
   features: string[];
 }
@@ -49,7 +53,9 @@ export function Pricing() {
                   )}
 
                   <h3 className="text-h3 text-foreground">{plan.name}</h3>
-                  <p className="price-mono mt-3 text-h2 text-foreground">{plan.price}</p>
+                  <p className={cn("mt-3 text-h2 text-foreground", !plan.priceOnRequest && "price-mono")}>
+                    {plan.price}
+                  </p>
                   <p className="mt-3 text-small text-muted-foreground">{plan.description}</p>
 
                   <ul className="mt-7 flex flex-1 flex-col gap-3">

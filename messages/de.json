@@ -136,6 +136,7 @@
       {
         "name": "Custom",
         "price": "Auf Anfrage",
+        "priceOnRequest": true,
         "description": "Für Online-Shops, Web-Apps oder alles, was über eine Standardseite hinausgeht.",
         "features": ["Unbegrenzte Seiten", "E-Commerce oder individuelle Funktionen", "Individueller Projektplan", "Laufende Betreuung möglich", "Flexible Zeitplanung"]
       }
@@ -221,14 +222,12 @@
   "Process": {
     "eyebrow": "Ablauf",
     "title": "Ein klarer Weg von der Idee zum Launch",
-    "description": "Keine Blackbox. Du weißt immer, was gerade passiert, was als Nächstes kommt und wann.",
+    "description": "Keine Blackbox. Du weißt immer, was gerade passiert und was als Nächstes kommt.",
     "steps": [
       { "title": "Kostenloses Erstgespräch", "duration": "15–30 Minuten", "description": "Wir sprechen über dein Unternehmen, deine Ziele und ob wir zueinander passen — unverbindlich und kostenlos." },
-      { "title": "Analyse", "duration": "2–3 Tage", "description": "Ich schaue mir deine aktuelle Situation, deine Zielgruppe und deinen Wettbewerb genauer an." },
-      { "title": "Konzept", "duration": "3–4 Tage", "description": "Daraus entsteht ein klares Konzept: Struktur, Inhalte und die wichtigsten Nutzerpfade." },
-      { "title": "Design", "duration": "1–2 Wochen", "description": "Das visuelle Design entsteht — du gibst an definierten Punkten Feedback, kein Rätselraten." },
-      { "title": "Entwicklung", "duration": "1–2 Wochen", "description": "Das Design wird mit produktionsreifem Code umgesetzt — responsive, barrierefrei und schnell." },
-      { "title": "Launch", "duration": "1–2 Tage", "description": "Finale Prüfung auf allen Geräten, dann der koordinierte Livegang — Domain, Hosting und Analytics korrekt eingerichtet." },
+      { "title": "Erster Prototyp", "duration": "Innerhalb von 5 Tagen", "description": "Du bekommst einen echten, sichtbaren ersten Entwurf deiner Website — kein Konzeptpapier, keine Buzzword-Präsentation, sondern etwas, das du anschauen und beurteilen kannst." },
+      { "title": "Umsetzung", "duration": "Bis es passt", "description": "Aus dem Prototyp wird die fertige Seite — in klaren Feedback-Runden, so lange wie es wirklich braucht. Kein künstlicher Countdown, kein Rätselraten." },
+      { "title": "Launch", "duration": "Wenn du zufrieden bist", "description": "Der Livegang passiert erst, wenn du wirklich zufrieden bist — mit korrekt eingerichteter Domain, Hosting und Analytics." },
       { "title": "Betreuung", "duration": "Laufend", "description": "Auch nach dem Launch bleibe ich erreichbar — für Fragen, kleine Anpassungen oder das gelegentliche „können wir das noch ändern“." }
     ]
   },

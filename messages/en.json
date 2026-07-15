@@ -136,6 +136,7 @@
       {
         "name": "Custom",
         "price": "Let's talk",
+        "priceOnRequest": true,
         "description": "For e-commerce, web apps, or anything with requirements beyond a standard site.",
         "features": ["Unlimited pages", "E-commerce or custom features", "Dedicated project plan", "Ongoing care available", "Flexible timeline"]
       }
@@ -221,14 +222,12 @@
   "Process": {
     "eyebrow": "Process",
     "title": "A clear path from idea to launch",
-    "description": "No black boxes. You always know what's happening, what's next, and when.",
+    "description": "No black boxes. You always know what's happening and what's next.",
     "steps": [
       { "title": "Free intro call", "duration": "15–30 minutes", "description": "We talk about your business, your goals, and whether we're a good fit — no cost, no obligation." },
-      { "title": "Analysis", "duration": "2–3 days", "description": "I take a closer look at your current situation, your audience, and your competitors." },
-      { "title": "Concept", "duration": "3–4 days", "description": "A clear concept comes out of this: structure, content, and the key user paths." },
-      { "title": "Design", "duration": "1–2 weeks", "description": "Visual design takes shape — you give feedback at defined checkpoints, no guessing where things stand." },
-      { "title": "Development", "duration": "1–2 weeks", "description": "The design gets built with production-grade code — responsive, accessible, and fast." },
-      { "title": "Launch", "duration": "1–2 days", "description": "Final QA across every device, then a coordinated go-live — domain, hosting and analytics all set up correctly." },
+      { "title": "First prototype", "duration": "Within 5 days", "description": "You get a real, visible first draft of your website — not a concept deck, not a buzzword pitch, but something you can actually look at and judge." },
+      { "title": "Refinement", "duration": "Until it's right", "description": "The prototype becomes the finished site — in clear feedback rounds, for as long as it genuinely takes. No artificial countdown, no guessing." },
+      { "title": "Launch", "duration": "When you're happy", "description": "Go-live happens once you're genuinely satisfied — with domain, hosting and analytics all set up correctly." },
       { "title": "Support", "duration": "Ongoing", "description": "I stay reachable after launch — for questions, small updates, or the occasional 'can we change this' request." }
     ]
   },
