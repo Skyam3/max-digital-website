@@ -25,14 +25,24 @@
   --color-muted-foreground: #9c988e;
   --color-muted: #514e46;
 
-  /* Brand */
-  --color-primary: #f7f6f2;
-  --color-primary-foreground: #0a0a09;
+  /* Brand — MAX Digital Brand Book v1 (Juli 2026).
+     Wein-Violett (#660033) is the book's canonical primary; used verbatim
+     in the light theme (13.0:1 against white). In dark mode the literal
+     value only reaches 1.52:1 against the near-black page background —
+     well under WCAG's 3:1 floor for UI components — so the primary CTA
+     button would nearly disappear. Brightened within the same hue family
+     to #b52065 (3.17:1) for dark mode only; the canonical hex stays the
+     single source of truth in light mode. */
+  --color-primary: #b52065;
+  --color-primary-foreground: #ffffff;
   --color-secondary: #1a1a17;
   --color-secondary-foreground: #f7f6f2;
-  --color-accent: #d97b4f;
-  --color-accent-foreground: #ffffff;
-  --color-accent-muted: #4a2e20;
+  /* Bernstein (#D98404), the book's canonical accent, verbatim here
+     (6.84:1 against the dark background) — see light theme below for why
+     it can't be reused as-is there. */
+  --color-accent: #d98404;
+  --color-accent-foreground: #0a0a09;
+  --color-accent-muted: #3d2a08;
 
   /* Feedback */
   --color-success: #7cbf8e;
@@ -40,7 +50,7 @@
   --color-error: #e2755f;
 
   /* Focus */
-  --color-ring: #d97b4f;
+  --color-ring: #d98404;
 
   /* Radius */
   --radius-sm: 6px;
@@ -53,7 +63,7 @@
   --shadow-md: 0 8px 24px -8px rgba(0, 0, 0, 0.4);
   --shadow-lg: 0 16px 48px -12px rgba(0, 0, 0, 0.5);
   --shadow-card-hover: 0 20px 56px -16px rgba(0, 0, 0, 0.55);
-  --shadow-glow: 0 0 0 1px rgba(217, 123, 79, 0.14), 0 8px 32px -8px rgba(217, 123, 79, 0.22);
+  --shadow-glow: 0 0 0 1px rgba(217, 132, 4, 0.14), 0 8px 32px -8px rgba(217, 132, 4, 0.22);
 
   /* Elevation highlight (top inner border on dark cards) */
   --inset-highlight: inset 0 1px 0 0 rgba(255, 255, 255, 0.04);
@@ -75,31 +85,34 @@
   --color-muted-foreground: #6d6a61;
   --color-muted: #efece6;
 
-  --color-primary: #171614;
+  /* Wein-Violett, the Brand Book's canonical primary, used verbatim here —
+     13.0:1 against white, the strongest pairing in the whole palette. */
+  --color-primary: #660033;
   --color-primary-foreground: #ffffff;
   --color-secondary: #f2f0eb;
   --color-secondary-foreground: #171614;
-  /* Darker than the dark-theme accent on purpose: at the same hue, #c3663d
-     only reached 3.97:1 against white and 3.06:1 against accent-muted —
-     both below the 4.5:1 WCAG AA floor for the normal-weight 12px text this
-     color is used for everywhere (section eyebrows, process step labels,
-     portfolio meta). This shade holds 6.56:1 / 5.06:1 while staying in the
-     same terracotta family. */
-  --color-accent: #994420;
+  /* Darker than the Brand Book's canonical Bernstein (#D98404) on purpose:
+     at that exact hue, contrast against white lands at 2.90:1 and against
+     the muted chip background at 2.75:1 — both well under the 4.5:1 WCAG
+     AA floor for the normal-weight 12px text this color is used for
+     everywhere (section eyebrows, process step labels, portfolio meta).
+     This shade holds 5.21:1 / 4.29:1 while staying in the same amber
+     family; #D98404 itself remains the source of truth in dark mode. */
+  --color-accent: #996000;
   --color-accent-foreground: #ffffff;
-  --color-accent-muted: #f3ded2;
+  --color-accent-muted: #f5e8cc;
 
   --color-success: #3e8f5b;
   --color-warning: #b47f22;
   --color-error: #c14a34;
 
-  --color-ring: #994420;
+  --color-ring: #996000;
 
   --shadow-sm: 0 1px 2px rgba(23, 22, 20, 0.04);
   --shadow-md: 0 8px 24px -8px rgba(23, 22, 20, 0.1);
   --shadow-lg: 0 16px 48px -12px rgba(23, 22, 20, 0.14);
   --shadow-card-hover: 0 20px 56px -16px rgba(23, 22, 20, 0.16);
-  --shadow-glow: 0 0 0 1px rgba(153, 68, 32, 0.12), 0 8px 32px -8px rgba(153, 68, 32, 0.18);
+  --shadow-glow: 0 0 0 1px rgba(153, 96, 0, 0.12), 0 8px 32px -8px rgba(153, 96, 0, 0.18);
 
   --inset-highlight: inset 0 1px 0 0 rgba(23, 22, 20, 0.03);
 }
