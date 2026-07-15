@@ -1,0 +1,364 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   MAX Digital — Design Tokens
+   Semantic, theme-able CSS variables. Swap values here to re-skin the
+   entire site — components never hardcode colors, radii, or shadows.
+   ========================================================================== */
+
+:root {
+  color-scheme: dark;
+
+  /* Surfaces */
+  --color-background: #0a0a09;
+  --color-surface: #0e0e0d;
+  --color-card: #131312;
+  --color-card-hover: #171715;
+  --color-overlay: rgba(10, 10, 9, 0.72);
+
+  /* Borders */
+  --color-border: #232320;
+  --color-border-strong: #34342f;
+
+  /* Text */
+  --color-foreground: #f7f6f2;
+  --color-muted-foreground: #9c988e;
+  --color-muted: #514e46;
+
+  /* Brand */
+  --color-primary: #f7f6f2;
+  --color-primary-foreground: #0a0a09;
+  --color-secondary: #1a1a17;
+  --color-secondary-foreground: #f7f6f2;
+  --color-accent: #d97b4f;
+  --color-accent-foreground: #ffffff;
+  --color-accent-muted: #4a2e20;
+
+  /* Feedback */
+  --color-success: #7cbf8e;
+  --color-warning: #e0b565;
+  --color-error: #e2755f;
+
+  /* Focus */
+  --color-ring: #d97b4f;
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  /* Shadows — soft, low-opacity, elevation not decoration */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.24);
+  --shadow-md: 0 8px 24px -8px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 16px 48px -12px rgba(0, 0, 0, 0.5);
+  --shadow-card-hover: 0 20px 56px -16px rgba(0, 0, 0, 0.55);
+  --shadow-glow: 0 0 0 1px rgba(217, 123, 79, 0.14), 0 8px 32px -8px rgba(217, 123, 79, 0.22);
+
+  /* Elevation highlight (top inner border on dark cards) */
+  --inset-highlight: inset 0 1px 0 0 rgba(255, 255, 255, 0.04);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+
+  --color-background: #ffffff;
+  --color-surface: #faf9f7;
+  --color-card: #ffffff;
+  --color-card-hover: #f6f4f1;
+  --color-overlay: rgba(255, 255, 255, 0.72);
+
+  --color-border: #e9e6e0;
+  --color-border-strong: #d8d3c9;
+
+  --color-foreground: #171614;
+  --color-muted-foreground: #6d6a61;
+  --color-muted: #efece6;
+
+  --color-primary: #171614;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #f2f0eb;
+  --color-secondary-foreground: #171614;
+  /* Darker than the dark-theme accent on purpose: at the same hue, #c3663d
+     only reached 3.97:1 against white and 3.06:1 against accent-muted —
+     both below the 4.5:1 WCAG AA floor for the normal-weight 12px text this
+     color is used for everywhere (section eyebrows, process step labels,
+     portfolio meta). This shade holds 6.56:1 / 5.06:1 while staying in the
+     same terracotta family. */
+  --color-accent: #994420;
+  --color-accent-foreground: #ffffff;
+  --color-accent-muted: #f3ded2;
+
+  --color-success: #3e8f5b;
+  --color-warning: #b47f22;
+  --color-error: #c14a34;
+
+  --color-ring: #994420;
+
+  --shadow-sm: 0 1px 2px rgba(23, 22, 20, 0.04);
+  --shadow-md: 0 8px 24px -8px rgba(23, 22, 20, 0.1);
+  --shadow-lg: 0 16px 48px -12px rgba(23, 22, 20, 0.14);
+  --shadow-card-hover: 0 20px 56px -16px rgba(23, 22, 20, 0.16);
+  --shadow-glow: 0 0 0 1px rgba(153, 68, 32, 0.12), 0 8px 32px -8px rgba(153, 68, 32, 0.18);
+
+  --inset-highlight: inset 0 1px 0 0 rgba(23, 22, 20, 0.03);
+}
+
+@theme inline {
+  --color-background: var(--color-background);
+  --color-surface: var(--color-surface);
+  --color-card: var(--color-card);
+  --color-card-hover: var(--color-card-hover);
+  --color-border: var(--color-border);
+  --color-border-strong: var(--color-border-strong);
+  --color-foreground: var(--color-foreground);
+  --color-muted-foreground: var(--color-muted-foreground);
+  --color-muted: var(--color-muted);
+  --color-primary: var(--color-primary);
+  --color-primary-foreground: var(--color-primary-foreground);
+  --color-secondary: var(--color-secondary);
+  --color-secondary-foreground: var(--color-secondary-foreground);
+  --color-accent: var(--color-accent);
+  --color-accent-foreground: var(--color-accent-foreground);
+  --color-accent-muted: var(--color-accent-muted);
+  --color-success: var(--color-success);
+  --color-warning: var(--color-warning);
+  --color-error: var(--color-error);
+  --color-ring: var(--color-ring);
+
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+
+  /* Typographic scale — fluid (clamp-based) so headlines scale smoothly
+     between breakpoints instead of jumping, the way Vercel/Apple do it.
+     Each step bundles size + line-height + tracking + weight into one
+     utility class (text-display, text-h1, …) so hierarchy is enforced
+     by the token, not re-decided per component. */
+  --text-display: clamp(2.75rem, 2.1rem + 2.2vw, 4.25rem);
+  --text-display--line-height: 1.05;
+  --text-display--letter-spacing: -0.02em;
+  --text-display--font-weight: 500;
+
+  --text-h1: clamp(2rem, 1.65rem + 1.6vw, 3.25rem);
+  --text-h1--line-height: 1.12;
+  --text-h1--letter-spacing: -0.015em;
+  --text-h1--font-weight: 500;
+
+  --text-h2: clamp(1.5rem, 1.3rem + 0.9vw, 2.25rem);
+  --text-h2--line-height: 1.22;
+  --text-h2--letter-spacing: -0.01em;
+  --text-h2--font-weight: 500;
+
+  --text-h3: clamp(1.125rem, 1.05rem + 0.35vw, 1.375rem);
+  --text-h3--line-height: 1.35;
+  --text-h3--letter-spacing: -0.005em;
+  --text-h3--font-weight: 500;
+
+  --text-body-lg: clamp(1.0625rem, 1rem + 0.28vw, 1.25rem);
+  --text-body-lg--line-height: 1.6;
+
+  --text-body: 1rem;
+  --text-body--line-height: 1.65;
+
+  --text-small: 0.875rem;
+  --text-small--line-height: 1.55;
+
+  --text-caption: 0.75rem;
+  --text-caption--line-height: 1.4;
+  --text-caption--letter-spacing: 0.06em;
+
+  --animate-fade-up: fade-up 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-marquee: marquee 32s linear infinite;
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+/* Layered (not bare global CSS) so Tailwind's utility classes — including
+   hover:border-* variants, which live in @layer utilities — can actually
+   override this default. Unlayered CSS always beats @layer CSS regardless
+   of selector specificity, which silently defeated every hover:border-*
+   class in the project until this was caught via interaction testing. */
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Icons — lucide-react gives every icon a shared "lucide" class, so one
+   rule here keeps stroke weight consistent everywhere. CSS stroke-width
+   overrides the SVG presentation attribute, so this wins over the
+   library's own default (2) without needing strokeWidth at every call
+   site — and stays correct automatically as icons are added later. */
+.lucide {
+  stroke-width: 1.75px;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-accent-foreground);
+}
+
+/* Focus ring — consistent, visible, never suppressed */
+:focus-visible {
+  outline: 2px solid var(--color-ring);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* Subtle grain texture — adds tactility without being decorative noise */
+.bg-grain {
+  position: relative;
+}
+
+.bg-grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='128'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  mix-blend-mode: overlay;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Marker-style highlight bar behind text, e.g. the Hero's "Vertrauen
+   schaffen". A single absolutely-positioned bar sibling (the previous
+   approach) is anchored to the whole element's bounding box, so once the
+   phrase wraps onto two lines at narrow widths, the bar sits under the
+   last line but stretched to the width of the widest line — visibly
+   misaligned with the actual text. box-decoration-break: clone renders
+   the background independently per wrapped line instead, so every line
+   gets its own correctly-sized bar automatically, at any width. */
+.text-highlight {
+  background-image: linear-gradient(
+    color-mix(in srgb, var(--color-accent-muted) 62%, transparent),
+    color-mix(in srgb, var(--color-accent-muted) 62%, transparent)
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 0.32em;
+  background-position: 0 88%;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* Maximum reading measure — caps body copy at a comfortable line length
+   regardless of font-size, so it stays correct even if the type scale
+   above changes later. ~65 characters is the readability sweet spot. */
+.measure {
+  max-width: 65ch;
+}
+
+.measure-narrow {
+  max-width: 42ch;
+}
+
+/* Form fields — shared by the contact form */
+.input-field {
+  width: 100%;
+  height: 2.75rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  padding: 0 0.875rem;
+  font-size: 1rem;
+  color: var(--color-foreground);
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+textarea.input-field {
+  height: auto;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+.input-field::placeholder {
+  color: var(--color-muted-foreground);
+}
+
+.input-field:hover {
+  border-color: var(--color-border-strong);
+}
+
+.input-field:focus-visible {
+  outline: 2px solid var(--color-ring);
+  outline-offset: 1px;
+  border-color: var(--color-border-strong);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--color-ring) 14%, transparent);
+}
+
+/* Shared card hover treatment — Trust, Services and Why all had this
+   exact border/lift/shadow combination duplicated as inline utility
+   strings; consolidated here so there's one definition to keep in sync.
+   Framer Motion needs the outer element to be a motion.div for stagger
+   reveals, so this stays a CSS class (composable with `group` and a
+   motion.div) rather than a wrapping React component.
+
+   Uses the standalone `translate` property, not `transform` — Framer
+   Motion leaves an inline `transform` style on these elements after
+   the reveal animation completes, and inline styles beat any stylesheet
+   rule outright, so a `transform`-based hover here would silently never
+   apply. `translate` is a separate property that composes with
+   `transform` instead of fighting it (confirmed via getBoundingClientRect
+   before/after hover — this is not a hypothetical). */
+.card-interactive {
+  transition: all 0.2s ease-out;
+}
+
+.card-interactive:hover {
+  translate: 0 -0.25rem;
+  border-color: var(--color-border-strong);
+  background: var(--color-card-hover);
+  box-shadow: var(--inset-highlight), var(--shadow-card-hover);
+}

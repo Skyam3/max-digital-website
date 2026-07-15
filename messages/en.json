@@ -1,0 +1,351 @@
+{
+  "Metadata": {
+    "title": "MAX Digital — Premium websites that build trust",
+    "titleTemplate": "%s — MAX Digital",
+    "description": "A boutique web studio building premium websites that turn visitors into clients — designed and built personally by Max."
+  },
+  "Common": {
+    "skipToContent": "Skip to content"
+  },
+  "ThemeToggle": {
+    "toLight": "Switch to light mode",
+    "toDark": "Switch to dark mode"
+  },
+  "LanguageSwitcher": {
+    "label": "Select language"
+  },
+  "Nav": {
+    "services": "Services",
+    "portfolio": "Work",
+    "about": "About",
+    "process": "Process",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "cta": "Free intro call",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "Hero": {
+    "badge": "Currently booking new projects for {month}",
+    "titleStart": "Websites that make people",
+    "titleHighlight": "trust you",
+    "titleEnd": "before you say a word.",
+    "subtitle": "I design and build premium websites that turn visitors into clients — without the generic template look.",
+    "primaryCta": "Free intro call",
+    "secondaryCta": "See selected work",
+    "trustPoints": [
+      "Fixed timelines",
+      "Direct with me — no account managers",
+      "You own everything"
+    ],
+    "mockup": {
+      "url": "maxdigital.studio",
+      "speed": "Built for speed",
+      "convert": "Designed to convert",
+      "accessible": "Accessible by default"
+    }
+  },
+  "Trust": {
+    "eyebrow": "No empty promises",
+    "title": "Not just claimed. This is what you actually get.",
+    "description": "Six concrete points, not marketing filler — you'll find each one backed up elsewhere on this page.",
+    "items": [
+      {
+        "title": "Direct line to me",
+        "description": "No account managers, no hand-offs. Every message reaches me personally — I usually reply within one business day."
+      },
+      {
+        "title": "Full ownership at launch",
+        "description": "Source code, design files and hosting access are all yours, completely. No lock-in, nothing held back."
+      },
+      {
+        "title": "Transparent pricing",
+        "description": "Real starting prices, published right here — no sales call required just to get a ballpark."
+      },
+      {
+        "title": "Modern, maintainable tech",
+        "description": "Next.js and React instead of a page builder — the same technical foundation leading tech companies run on."
+      },
+      {
+        "title": "Accessibility is standard",
+        "description": "Sufficient contrast, keyboard support and clean HTML from day one — not an upsell, not an afterthought."
+      },
+      {
+        "title": "A fixed timeline before you commit",
+        "description": "You'll know the scope and schedule before work begins — not a rough guess that grows later."
+      }
+    ]
+  },
+  "Services": {
+    "eyebrow": "Services",
+    "title": "Everything your website needs. Nothing it doesn't.",
+    "description": "A focused set of services that cover the full lifecycle of a premium website — from first sketch to long after launch.",
+    "items": [
+      {
+        "title": "Business Websites",
+        "description": "A professional website that represents your business credibly — from the homepage to the contact form.",
+        "features": ["Custom design", "Clear structure & navigation", "Optimized for every device"]
+      },
+      {
+        "title": "Landing Pages",
+        "description": "Focused pages built around a single action — perfect for campaigns, product launches, or offers.",
+        "features": ["One clear conversion goal", "Live fast", "A/B-testable"]
+      },
+      {
+        "title": "Website Redesign",
+        "description": "Is your website outdated or underperforming? I'll give it a modern, faster foundation.",
+        "features": ["Carries over existing content", "Modern design", "Rebuilt from the ground up"]
+      },
+      {
+        "title": "Performance Optimization",
+        "description": "Slow pages cost you customers. I make sure load times never drive people away.",
+        "features": ["Core Web Vitals", "Image optimization", "Clean, lean code"]
+      },
+      {
+        "title": "SEO Fundamentals",
+        "description": "The technical foundation that lets Google actually find and understand your site.",
+        "features": ["Clean page structure", "Metadata & sitemaps", "Analytics setup"]
+      },
+      {
+        "title": "Maintenance & Care",
+        "description": "Launch day isn't the finish line. I handle updates, small changes, and day-to-day upkeep.",
+        "features": ["Monthly update windows", "Priority response time", "No long-term lock-in"]
+      }
+    ]
+  },
+  "Pricing": {
+    "eyebrow": "Pricing",
+    "title": "Straightforward pricing, no surprises",
+    "description": "Every project is scoped individually — these are typical starting points so you know what to expect before we talk.",
+    "cta": "Get started",
+    "popularBadge": "Most popular",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "From $2,400",
+        "description": "A focused, professional site for businesses just getting their online presence right.",
+        "features": ["Up to 5 pages", "Fully custom design", "Mobile & tablet optimized", "Basic on-page SEO", "2 week delivery"]
+      },
+      {
+        "name": "Growth",
+        "price": "From $5,800",
+        "description": "A complete site with the content tools and structure to grow with your business.",
+        "features": ["Up to 10 pages", "Custom design system", "Editable content (CMS)", "Advanced SEO & analytics", "30 days of post-launch support"]
+      },
+      {
+        "name": "Custom",
+        "price": "Let's talk",
+        "description": "For e-commerce, web apps, or anything with requirements beyond a standard site.",
+        "features": ["Unlimited pages", "E-commerce or custom features", "Dedicated project plan", "Ongoing care available", "Flexible timeline"]
+      }
+    ]
+  },
+  "Portfolio": {
+    "eyebrow": "Work",
+    "title": "A closer look at my work",
+    "description": "Three projects that show how I approach design and structure — from this very site to fully worked-through concepts.",
+    "goalLabel": "Goal",
+    "challengeLabel": "Challenge",
+    "solutionLabel": "Solution",
+    "technologyLabel": "Technology",
+    "liveLabel": "Live",
+    "conceptLabel": "Concept project",
+    "cta": "Start a similar project",
+    "projects": [
+      {
+        "id": "maxdigital",
+        "name": "MAX Digital",
+        "type": "Brand Website",
+        "live": true,
+        "summary": "The very site you're on right now — its own case study.",
+        "goal": "Show potential clients in the first few seconds that this is careful, considered work — and turn visitors into intro calls.",
+        "challenge": "A one-person studio has to feel just as trustworthy as an established agency, without turning impersonal or generic.",
+        "solution": "A restrained, dark design with a single accent tone, a personal first-person voice throughout, and a preview mockup that shows the site referencing itself.",
+        "technology": "Next.js, TypeScript, Tailwind CSS, Framer Motion"
+      },
+      {
+        "id": "fantasyuniverse",
+        "name": "Fantasy Universe",
+        "type": "Web App",
+        "live": false,
+        "summary": "A platform for game masters to build their fantasy campaign worlds and share them with their group.",
+        "goal": "Give game masters one place where lore, maps and characters come together in a structured way.",
+        "challenge": "Huge amounts of lore and branching detail needed to stay searchable without constraining creativity or cluttering the interface.",
+        "solution": "A visual world map as the central entry point, linked to a modular wiki system, wrapped in a dark, atmospheric visual language.",
+        "technology": "Next.js, Supabase, Mapbox"
+      },
+      {
+        "id": "tilecompany",
+        "name": "Tile Company",
+        "type": "E-commerce",
+        "live": false,
+        "summary": "A digital catalog for a tile and natural stone supplier, built for architects, contractors and homeowners.",
+        "goal": "Make it fast to find the right material and easy to request a sample.",
+        "challenge": "A traditional trade business needed to feel premium and current online, without alienating its existing customer base.",
+        "solution": "A reduced catalog with large-format material presentation, filtering by color, format and finish, and a simple sample request instead of a full checkout.",
+        "technology": "Sanity CMS, Next.js, Algolia"
+      }
+    ]
+  },
+  "Why": {
+    "eyebrow": "About",
+    "founderName": "Max",
+    "founderRole": "Founder, MAX Digital",
+    "leadStatement": "I started MAX Digital because I kept seeing good businesses undersold by bad websites.",
+    "paragraphs": [
+      "Slow templates. Generic stock photos. Contact forms that look like an afterthought. A business can do everything right and still lose a customer's trust in the first three seconds on their site.",
+      "I care about the details most agencies skip — how a button feels when you hover it, how fast a page loads on a phone with bad signal, whether the copy actually says something real. That's the work, not the decoration around it.",
+      "When you work with me, you're not handed off to a junior after the pitch call. I'm involved from the first sketch to the last line of code, because that's the only way I know to keep the quality consistent."
+    ],
+    "signature": "— Max",
+    "pillars": [
+      {
+        "title": "Personal collaboration",
+        "description": "You talk directly with the person building your site — from the first call to launch."
+      },
+      {
+        "title": "Individual solutions, not templates",
+        "description": "No page builders, no drag-and-drop kits. Every site is designed and built specifically for your business."
+      },
+      {
+        "title": "Modern technologies",
+        "description": "Built on the same technical foundation leading tech companies rely on."
+      },
+      {
+        "title": "Long-term thinking",
+        "description": "Your site should still look and work great in three years — not just on launch day."
+      }
+    ]
+  },
+  "Process": {
+    "eyebrow": "Process",
+    "title": "A clear path from idea to launch",
+    "description": "No black boxes. You always know what's happening, what's next, and when.",
+    "steps": [
+      { "title": "Free intro call", "duration": "15–30 minutes", "description": "We talk about your business, your goals, and whether we're a good fit — no cost, no obligation." },
+      { "title": "Analysis", "duration": "2–3 days", "description": "I take a closer look at your current situation, your audience, and your competitors." },
+      { "title": "Concept", "duration": "3–4 days", "description": "A clear concept comes out of this: structure, content, and the key user paths." },
+      { "title": "Design", "duration": "1–2 weeks", "description": "Visual design takes shape — you give feedback at defined checkpoints, no guessing where things stand." },
+      { "title": "Development", "duration": "1–2 weeks", "description": "The design gets built with production-grade code — responsive, accessible, and fast." },
+      { "title": "Launch", "duration": "1–2 days", "description": "Final QA across every device, then a coordinated go-live — domain, hosting and analytics all set up correctly." },
+      { "title": "Support", "duration": "Ongoing", "description": "I stay reachable after launch — for questions, small updates, or the occasional 'can we change this' request." }
+    ]
+  },
+  "FAQ": {
+    "eyebrow": "FAQ",
+    "title": "Questions you might have",
+    "description": "If something isn't covered here, just ask — I usually reply within a day.",
+    "items": [
+      { "question": "How long does a typical project take?", "answer": "Most projects take 3–5 weeks from kickoff to launch, depending on scope. You'll get a firm timeline before any work begins, not a rolling estimate." },
+      { "question": "What do you need from me to get started?", "answer": "Just clarity on your goals and any existing brand assets you have. I'll guide you through the rest with a short discovery call and a simple questionnaire." },
+      { "question": "How many rounds of revisions do I get?", "answer": "Every project includes structured feedback rounds at both the design and development stages. In practice, most projects need far fewer revisions than expected, because we align on direction early." },
+      { "question": "Do I own the website after it's built?", "answer": "Yes, entirely. Source code, design files and hosting access are all handed over to you at launch. There's no lock-in and nothing held hostage." },
+      { "question": "What technology do you build with?", "answer": "Modern, production-grade code — typically Next.js and React — chosen for speed, reliability and long-term maintainability. No drag-and-drop page builders, no bloated plugins." },
+      { "question": "What happens after launch?", "answer": "I stay reachable for questions and small fixes. If you need ongoing updates, the Growth and Custom plans include support windows, or we can set up a simple monthly arrangement." },
+      { "question": "Do you work with businesses outside your local area?", "answer": "Yes — the entire process is designed to work remotely, over calls, email and a shared project board, regardless of where you're based." }
+    ]
+  },
+  "Contact": {
+    "eyebrow": "Contact",
+    "title": "Let's build something worth trusting.",
+    "description": "Tell me a bit about your project. No obligation — if it's not a fit, I'll tell you honestly and point you in a better direction.",
+    "email": "hello@maxdigital.studio",
+    "responseTime": "Usually replies within one business day",
+    "noPressure": "No sales pitch, no spam — just an honest answer.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Jane Doe",
+      "email": "Email",
+      "emailPlaceholder": "jane@company.com",
+      "projectType": "Project type",
+      "selectOne": "Select one",
+      "budget": "Budget range",
+      "message": "Message",
+      "messagePlaceholder": "What are you looking to build?",
+      "submit": "Send message",
+      "submitting": "Sending…",
+      "successTitle": "Message sent",
+      "successDescription": "Thanks for reaching out — I'll get back to you within one business day.",
+      "error": "Something went wrong — please email hello@maxdigital.studio directly."
+    },
+    "projectTypes": ["New website", "Redesign", "Brand identity", "Something else"],
+    "budgets": ["Under $3,000", "$3,000–$6,000", "$6,000–$12,000", "$12,000+"]
+  },
+  "Footer": {
+    "description": "A boutique web studio designing and building premium websites for businesses that want to be trusted, not just seen.",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top",
+    "impressum": "Legal Notice",
+    "privacy": "Privacy Policy"
+  },
+  "Legal": {
+    "backLink": "Back to homepage",
+    "impressum": {
+      "title": "Legal Notice (Impressum)",
+      "updated": "Last updated: July 2026",
+      "placeholderNotice": "Note: fields marked [Placeholder] are example data and must be replaced with real business details before this site goes live. This page exists to satisfy German Telemedia Act (TMG) §5 disclosure requirements, which apply based on the business's jurisdiction regardless of a visitor's chosen language.",
+      "sections": [
+        {
+          "heading": "Information pursuant to § 5 TMG",
+          "body": "Max [Placeholder last name]\n[Placeholder street and number]\n[Placeholder postal code and city]\nGermany"
+        },
+        {
+          "heading": "Contact",
+          "body": "Email: hello@maxdigital.studio\nPhone: [Placeholder phone number]"
+        },
+        {
+          "heading": "VAT ID",
+          "body": "VAT identification number pursuant to § 27 a German VAT Act: [Placeholder VAT ID, if applicable]"
+        },
+        {
+          "heading": "Responsible for content pursuant to § 18 (2) MStV",
+          "body": "Max [Placeholder last name]\n[Placeholder address as above]"
+        },
+        {
+          "heading": "EU Dispute Resolution",
+          "body": "The European Commission provides a platform for online dispute resolution (ODR): https://ec.europa.eu/consumers/odr/. I am not obligated or willing to participate in dispute resolution proceedings before a consumer arbitration board."
+        },
+        {
+          "heading": "Liability for Content",
+          "body": "As a service provider, I am responsible for my own content on these pages in accordance with general law pursuant to § 7 (1) TMG. Under §§ 8 to 10 TMG, however, I am not obligated to monitor transmitted or stored third-party information or investigate circumstances indicating unlawful activity."
+        },
+        {
+          "heading": "Liability for Links",
+          "body": "This site contains links to external third-party websites over whose content I have no control. I therefore cannot accept any liability for this external content. The respective provider is always responsible for the content of linked pages."
+        },
+        {
+          "heading": "Copyright",
+          "body": "Content and works created by me on these pages are subject to German copyright law. Third-party contributions are marked as such. Reproduction, editing, distribution, or any form of use beyond the scope of copyright law requires written consent."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "updated": "Last updated: July 2026",
+      "placeholderNotice": "Note: this is a technically accurate baseline that describes exactly what data this website currently processes. It is not a substitute for legal review — please have it checked by a qualified professional before launch, especially once a hosting provider, analytics tools, or other processing is added.",
+      "sections": [
+        {
+          "heading": "Controller",
+          "body": "Max [Placeholder last name]\n[Placeholder address]\nEmail: hello@maxdigital.studio"
+        },
+        {
+          "heading": "Contact Form",
+          "body": "If you use the contact form, the data you provide (name, email address, project type, budget, message) is used exclusively to handle your inquiry and is not shared with third parties. The legal basis is Art. 6(1)(b) GDPR (pre-contractual inquiry) or (f) (legitimate interest in communication)."
+        },
+        {
+          "heading": "Hosting",
+          "body": "[Placeholder: name and location of the hosting provider, once finalized — e.g. Vercel Inc. If hosting outside the EU/EEA, an additional note on the transfer basis (e.g. Standard Contractual Clauses) is required.]"
+        },
+        {
+          "heading": "Local Storage (Theme Preference)",
+          "body": "This site stores your light/dark mode preference in your browser's localStorage. This information never leaves your device, is never transmitted to a server, and is used only for display purposes. No tracking or marketing cookies are set."
+        },
+        {
+          "heading": "Your Rights",
+          "body": "You have the right at any time to access, rectify, delete, or restrict the processing of your personal data, as well as a right to object to processing and a right to data portability. For questions, contact hello@maxdigital.studio. You also have the right to lodge a complaint with a data protection supervisory authority."
+        }
+      ]
+    }
+  }
+}
