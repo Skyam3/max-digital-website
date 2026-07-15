@@ -41,15 +41,15 @@
     ],
     "mockup": {
       "url": "maxdigital.studio",
-      "speed": "Built for speed",
-      "convert": "Designed to convert",
-      "accessible": "Accessible by default"
+      "speed": "Next.js, not a builder",
+      "convert": "One click to contact",
+      "accessible": "WCAG-checked contrast"
     }
   },
   "Trust": {
     "eyebrow": "No empty promises",
-    "title": "Not just claimed. This is what you actually get.",
-    "description": "Six concrete points, not marketing filler — you'll find each one backed up elsewhere on this page.",
+    "title": "Anyone can make claims. Here's what's actually true.",
+    "description": "Six points you can verify yourself — not six adjectives.",
     "items": [
       {
         "title": "Direct line to me",

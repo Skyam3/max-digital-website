@@ -41,15 +41,15 @@
     ],
     "mockup": {
       "url": "maxdigital.studio",
-      "speed": "Für Geschwindigkeit gebaut",
-      "convert": "Auf Conversion ausgelegt",
-      "accessible": "Von Grund auf barrierefrei"
+      "speed": "Next.js statt Baukasten",
+      "convert": "Ein Klick zum Kontakt",
+      "accessible": "WCAG-geprüfter Kontrast"
     }
   },
   "Trust": {
     "eyebrow": "Keine leeren Versprechen",
-    "title": "Nicht nur behauptet. Das bekommst du wirklich.",
-    "description": "Sechs konkrete Punkte statt Marketing-Floskeln — jeden davon findest du an anderer Stelle auf dieser Seite noch einmal im Detail.",
+    "title": "Behaupten kann jeder. Hier steht, was stimmt.",
+    "description": "Sechs Punkte, die du selbst nachprüfen kannst — nicht sechs Adjektive.",
     "items": [
       {
         "title": "Direkter Draht zu mir",
