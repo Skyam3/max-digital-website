@@ -80,7 +80,7 @@
   "Services": {
     "eyebrow": "Services",
     "title": "Everything your website needs. Nothing it doesn't.",
-    "description": "A focused set of services that cover the full lifecycle of a premium website — from first sketch to long after launch.",
+    "description": "A focused set of services — from first sketch to long after launch.",
     "items": [
       {
         "title": "Business Websites",
@@ -117,7 +117,7 @@
   "Pricing": {
     "eyebrow": "Pricing",
     "title": "Straightforward pricing, no surprises",
-    "description": "Every project is scoped individually — these are typical starting points so you know what to expect before we talk.",
+    "description": "Every project gets its own price — these are typical starting points so you know what to expect before we talk.",
     "cta": "Get started",
     "popularBadge": "Most popular",
     "plans": [
@@ -236,7 +236,7 @@
     "title": "Questions you might have",
     "description": "If something isn't covered here, just ask — I usually reply within a day.",
     "items": [
-      { "question": "How long does a typical project take?", "answer": "Most projects take 3–5 weeks from kickoff to launch, depending on scope. You'll get a firm timeline before any work begins, not a rolling estimate." },
+      { "question": "How long does a typical project take?", "answer": "The first prototype takes 5 days, max — that's a fixed promise, not an estimate. How long it takes to launch after that depends on scope and on you: we keep refining details until you're genuinely happy, instead of forcing a deadline that doesn't fit." },
       { "question": "What do you need from me to get started?", "answer": "Just clarity on your goals and any existing brand assets you have. I'll guide you through the rest with a short discovery call and a simple questionnaire." },
       { "question": "How many rounds of revisions do I get?", "answer": "Every project includes structured feedback rounds at both the design and development stages. In practice, most projects need far fewer revisions than expected, because we align on direction early." },
       { "question": "Do I own the website after it's built?", "answer": "Yes, entirely. Source code, design files and hosting access are all handed over to you at launch. There's no lock-in and nothing held hostage." },

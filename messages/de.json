@@ -80,7 +80,7 @@
   "Services": {
     "eyebrow": "Leistungen",
     "title": "Alles, was deine Webseite braucht. Nicht mehr, nicht weniger.",
-    "description": "Ein fokussiertes Leistungsangebot, das den gesamten Lebenszyklus einer hochwertigen Webseite abdeckt — vom ersten Entwurf bis lange nach dem Launch.",
+    "description": "Ein fokussiertes Leistungsangebot — von der ersten Idee bis lange nach dem Launch.",
     "items": [
       {
         "title": "Unternehmenswebseiten",
@@ -117,7 +117,7 @@
   "Pricing": {
     "eyebrow": "Preise",
     "title": "Faire Preise, ohne Überraschungen",
-    "description": "Jedes Projekt wird individuell kalkuliert — das sind typische Startpunkte, damit du weißt, was dich erwartet, bevor wir sprechen.",
+    "description": "Jedes Projekt bekommt seinen eigenen Preis — das hier sind typische Startpunkte, damit du weißt, was dich erwartet, bevor wir sprechen.",
     "cta": "Loslegen",
     "popularBadge": "Am beliebtesten",
     "plans": [
@@ -236,7 +236,7 @@
     "title": "Fragen, die du vielleicht hast",
     "description": "Falls etwas hier nicht beantwortet wird, frag einfach — ich antworte meist innerhalb eines Tages.",
     "items": [
-      { "question": "Wie lange dauert ein typisches Projekt?", "answer": "Die meisten Projekte dauern von Kickoff bis Launch 3–5 Wochen, je nach Umfang. Du bekommst einen festen Zeitplan, bevor die Arbeit beginnt — keine grobe Schätzung." },
+      { "question": "Wie lange dauert ein typisches Projekt?", "answer": "Bis zum ersten Prototyp dauert es maximal 5 Tage — das ist ein festes Versprechen, kein Richtwert. Wie lange es danach bis zum Launch dauert, hängt vom Umfang und von dir ab: Wir feilen so lange an Details, bis du wirklich zufrieden bist, statt stur einen Zeitplan durchzuziehen." },
       { "question": "Was brauchst du von mir, um zu starten?", "answer": "Nur Klarheit über deine Ziele und vorhandene Markenmaterialien. Den Rest kläre ich mit dir in einem kurzen Erstgespräch und einem einfachen Fragebogen." },
       { "question": "Wie viele Korrekturschleifen sind enthalten?", "answer": "Jedes Projekt enthält strukturierte Feedback-Runden bei Design und Entwicklung. In der Praxis brauchen die meisten Projekte weniger Korrekturen als erwartet, weil wir uns früh auf die Richtung einigen." },
       { "question": "Gehört mir die Webseite nach der Fertigstellung?", "answer": "Ja, vollständig. Quellcode, Design-Dateien und Hosting-Zugang gehören dir ab dem Launch. Kein Lock-in, nichts wird zurückgehalten." },
