@@ -144,8 +144,9 @@
   --radius-lg: var(--radius-lg);
   --radius-xl: var(--radius-xl);
 
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  --font-sans: var(--font-plus-jakarta-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-lora), ui-serif, Georgia, serif;
+  --font-mono: var(--font-ibm-plex-mono), ui-monospace, monospace;
 
   /* Typographic scale — fluid (clamp-based) so headlines scale smoothly
      between breakpoints instead of jumping, the way Vercel/Apple do it.
@@ -239,6 +240,29 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+/* Brand Book v1: Lora for headings, Plus Jakarta Sans (the body default
+   above) everywhere else. Targets the type-scale utility classes rather
+   than raw h1/h2/h3 tags on purpose — the FAQ's <h3> wraps a
+   button/span styled as body text (text-body, semantically a heading for
+   screen readers, visually not one), and a tag-based rule would have
+   made it inherit the serif face too. Scoping to the utilities that mean
+   "this is visually a heading at this scale" avoids that mismatch. */
+.text-display,
+.text-h1,
+.text-h2,
+.text-h3 {
+  font-family: var(--font-serif);
+}
+
+/* IBM Plex Mono, exclusively for price amounts (Brand Book v1) — applied
+   alongside a type-scale class (e.g. text-h2) that still supplies the
+   size/line-height/weight. Declared after the heading rule above so it
+   wins the cascade tie when both land on the same element. */
+.price-mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
 }
 
 @media (prefers-reduced-motion: reduce) {

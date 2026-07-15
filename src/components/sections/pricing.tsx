@@ -49,7 +49,7 @@ export function Pricing() {
                   )}
 
                   <h3 className="text-h3 text-foreground">{plan.name}</h3>
-                  <p className="mt-3 text-h2 text-foreground">{plan.price}</p>
+                  <p className="price-mono mt-3 text-h2 text-foreground">{plan.price}</p>
                   <p className="mt-3 text-small text-muted-foreground">{plan.description}</p>
 
                   <ul className="mt-7 flex flex-1 flex-col gap-3">

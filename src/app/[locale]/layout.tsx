@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Lora, Plus_Jakarta_Sans, IBM_Plex_Mono } from "next/font/google";
 import Script from "next/script";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -10,15 +10,30 @@ import { MotionProvider } from "@/components/motion-provider";
 import { routing } from "@/i18n/routing";
 import { localeAlternates, siteUrl, urlFor } from "@/lib/seo";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+// Brand Book v1 typography: Lora (headings), Plus Jakarta Sans (body/UI),
+// IBM Plex Mono (prices only). Each loads only the weights the design
+// tokens actually request — headings and prices are always weight 500
+// (never bold/semibold anywhere on the site, confirmed via a full-repo
+// grep), body text uses 400/500 (regular copy, medium labels/buttons) —
+// so no unused font files ship to the browser.
+const lora = Lora({
+  variable: "--font-lora",
   subsets: ["latin"],
+  weight: ["500"],
   display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const plusJakartaSans = Plus_Jakarta_Sans({
+  variable: "--font-plus-jakarta-sans",
   subsets: ["latin"],
+  weight: ["400", "500"],
+  display: "swap",
+});
+
+const ibmPlexMono = IBM_Plex_Mono({
+  variable: "--font-ibm-plex-mono",
+  subsets: ["latin"],
+  weight: ["500"],
   display: "swap",
 });
 
@@ -128,7 +143,7 @@ export default async function RootLayout({
   return (
     <html
       lang={locale}
-      className={`${geistSans.variable} ${geistMono.variable} h-full scroll-pt-20`}
+      className={`${lora.variable} ${plusJakartaSans.variable} ${ibmPlexMono.variable} h-full scroll-pt-20`}
       suppressHydrationWarning
     >
       <head>
