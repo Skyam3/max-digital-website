@@ -1,6 +1,7 @@
 "use client";
 
 import { m } from "framer-motion";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
@@ -16,6 +17,7 @@ export function Why() {
   const t = useTranslations("Why");
   const paragraphs = t.raw("paragraphs") as string[];
   const pillars = t.raw("pillars") as Pillar[];
+  const portraitUrl = t("portraitUrl");
 
   return (
     <Section id="why" surface>
@@ -23,16 +25,26 @@ export function Why() {
         <div className="grid grid-cols-1 gap-14 md:grid-cols-[minmax(0,320px)_1fr] md:gap-16">
           <Reveal>
             <div className="md:sticky md:top-32">
-              <div
-                className="flex aspect-square w-full max-w-[220px] items-center justify-center rounded-[var(--radius-xl)] border border-border text-6xl font-medium text-accent"
-                style={{
-                  background:
-                    "linear-gradient(155deg, var(--color-accent-muted), var(--color-surface))",
-                }}
-                aria-hidden="true"
-              >
-                M
-              </div>
+              {portraitUrl ? (
+                <Image
+                  src={portraitUrl}
+                  alt={t("founderName")}
+                  width={220}
+                  height={220}
+                  className="aspect-square w-full max-w-[220px] rounded-[var(--radius-xl)] border border-border object-cover"
+                />
+              ) : (
+                <div
+                  className="flex aspect-square w-full max-w-[220px] items-center justify-center rounded-[var(--radius-xl)] border border-border text-6xl font-medium text-accent"
+                  style={{
+                    background:
+                      "linear-gradient(155deg, var(--color-accent-muted), var(--color-surface))",
+                  }}
+                  aria-hidden="true"
+                >
+                  M
+                </div>
+              )}
               <p className="mt-6 text-base font-medium text-foreground">{t("founderName")}</p>
               <p className="text-sm text-muted-foreground">{t("founderRole")}</p>
             </div>
