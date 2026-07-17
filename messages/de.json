@@ -27,7 +27,7 @@
     "closeMenu": "Menü schließen"
   },
   "Hero": {
-    "badge": "Aktuell buche ich neue Projekte für {month}",
+    "badge": "Aktuell teste ich mein Projekt im {month}",
     "titleStart": "Webseiten, die",
     "titleHighlight": "Vertrauen schaffen",
     "titleEnd": "– noch bevor du ein Wort sagst.",
@@ -85,32 +85,56 @@
       {
         "title": "Unternehmenswebseiten",
         "description": "Eine professionelle Webseite, die dein Unternehmen glaubwürdig repräsentiert — von der Startseite bis zum Kontaktformular.",
-        "features": ["Individuelles Design", "Klare Struktur & Navigation", "Für jedes Gerät optimiert"]
+        "features": [
+          "Individuelles Design",
+          "Klare Struktur & Navigation",
+          "Für jedes Gerät optimiert"
+        ]
       },
       {
         "title": "Landingpages",
         "description": "Fokussierte Seiten für eine einzige Aktion — perfekt für Kampagnen, Produkteinführungen oder Angebote.",
-        "features": ["Ein klares Conversion-Ziel", "Schnell online", "A/B-testbar"]
+        "features": [
+          "Ein klares Conversion-Ziel",
+          "Schnell online",
+          "A/B-testbar"
+        ]
       },
       {
         "title": "Redesign bestehender Webseiten",
         "description": "Deine Webseite ist veraltet oder performt schlecht? Ich gebe ihr ein zeitgemäßes, schnelleres Fundament.",
-        "features": ["Bestehende Inhalte übernehmen", "Modernes Design", "Technisch von Grund auf neu"]
+        "features": [
+          "Bestehende Inhalte übernehmen",
+          "Modernes Design",
+          "Technisch von Grund auf neu"
+        ]
       },
       {
         "title": "Performance Optimierung",
         "description": "Langsame Seiten kosten Kunden. Ich sorge für Ladezeiten, die niemanden vergraulen.",
-        "features": ["Core Web Vitals", "Bildoptimierung", "Sauberer, schlanker Code"]
+        "features": [
+          "Core Web Vitals",
+          "Bildoptimierung",
+          "Sauberer, schlanker Code"
+        ]
       },
       {
         "title": "SEO Grundlagen",
         "description": "Die technische Basis, damit Google deine Seite überhaupt finden und verstehen kann.",
-        "features": ["Saubere Seitenstruktur", "Meta-Daten & Sitemaps", "Analytics-Einrichtung"]
+        "features": [
+          "Saubere Seitenstruktur",
+          "Meta-Daten & Sitemaps",
+          "Analytics-Einrichtung"
+        ]
       },
       {
         "title": "Wartung und Betreuung",
         "description": "Nach dem Launch ist nicht Schluss. Ich kümmere mich um Updates, kleine Änderungen und den laufenden Betrieb.",
-        "features": ["Monatliche Update-Fenster", "Priorisierte Reaktionszeit", "Kein langfristiges Lock-in"]
+        "features": [
+          "Monatliche Update-Fenster",
+          "Priorisierte Reaktionszeit",
+          "Kein langfristiges Lock-in"
+        ]
       }
     ]
   },
@@ -125,20 +149,38 @@
         "name": "Starter",
         "price": "Ab 2.400 €",
         "description": "Eine fokussierte, professionelle Seite für Unternehmen, die online endlich richtig auftreten wollen.",
-        "features": ["Bis zu 5 Seiten", "Vollständig individuelles Design", "Für Mobilgeräte & Tablets optimiert", "Basis-SEO", "2 Wochen Lieferzeit"]
+        "features": [
+          "Bis zu 5 Seiten",
+          "Vollständig individuelles Design",
+          "Für Mobilgeräte & Tablets optimiert",
+          "Basis-SEO",
+          "2 Wochen Lieferzeit"
+        ]
       },
       {
         "name": "Growth",
         "price": "Ab 5.800 €",
         "description": "Eine vollständige Webseite mit den Content-Tools und der Struktur, um mit deinem Unternehmen zu wachsen.",
-        "features": ["Bis zu 10 Seiten", "Individuelles Design-System", "Bearbeitbare Inhalte (CMS)", "Erweiterte SEO & Analytics", "30 Tage Support nach Launch"]
+        "features": [
+          "Bis zu 10 Seiten",
+          "Individuelles Design-System",
+          "Bearbeitbare Inhalte (CMS)",
+          "Erweiterte SEO & Analytics",
+          "30 Tage Support nach Launch"
+        ]
       },
       {
         "name": "Custom",
         "price": "Auf Anfrage",
-        "priceOnRequest": true,
         "description": "Für Online-Shops, Web-Apps oder alles, was über eine Standardseite hinausgeht.",
-        "features": ["Unbegrenzte Seiten", "E-Commerce oder individuelle Funktionen", "Individueller Projektplan", "Laufende Betreuung möglich", "Flexible Zeitplanung"]
+        "features": [
+          "Unbegrenzte Seiten",
+          "E-Commerce oder individuelle Funktionen",
+          "Individueller Projektplan",
+          "Laufende Betreuung möglich",
+          "Flexible Zeitplanung"
+        ],
+        "priceOnRequest": true
       }
     ]
   },
@@ -225,11 +267,31 @@
     "title": "Ein klarer Weg von der Idee zum Launch",
     "description": "Keine Blackbox. Du weißt immer, was gerade passiert und was als Nächstes kommt.",
     "steps": [
-      { "title": "Kostenloses Erstgespräch", "duration": "15–30 Minuten", "description": "Wir sprechen über dein Unternehmen, deine Ziele und ob wir zueinander passen — unverbindlich und kostenlos." },
-      { "title": "Erster Prototyp", "duration": "Innerhalb von 5 Tagen", "description": "Du bekommst einen echten, sichtbaren ersten Entwurf deiner Website — kein Konzeptpapier, keine Buzzword-Präsentation, sondern etwas, das du anschauen und beurteilen kannst." },
-      { "title": "Umsetzung", "duration": "Bis es passt", "description": "Aus dem Prototyp wird die fertige Seite — in klaren Feedback-Runden, so lange wie es wirklich braucht. Kein künstlicher Countdown, kein Rätselraten." },
-      { "title": "Launch", "duration": "Wenn du zufrieden bist", "description": "Der Livegang passiert erst, wenn du wirklich zufrieden bist — mit korrekt eingerichteter Domain, Hosting und Analytics." },
-      { "title": "Betreuung", "duration": "Laufend", "description": "Auch nach dem Launch bleibe ich erreichbar — für Fragen, kleine Anpassungen oder das gelegentliche „können wir das noch ändern“." }
+      {
+        "title": "Kostenloses Erstgespräch",
+        "duration": "15–30 Minuten",
+        "description": "Wir sprechen über dein Unternehmen, deine Ziele und ob wir zueinander passen — unverbindlich und kostenlos."
+      },
+      {
+        "title": "Erster Prototyp",
+        "duration": "Innerhalb von 5 Tagen",
+        "description": "Du bekommst einen echten, sichtbaren ersten Entwurf deiner Website — kein Konzeptpapier, keine Buzzword-Präsentation, sondern etwas, das du anschauen und beurteilen kannst."
+      },
+      {
+        "title": "Umsetzung",
+        "duration": "Bis es passt",
+        "description": "Aus dem Prototyp wird die fertige Seite — in klaren Feedback-Runden, so lange wie es wirklich braucht. Kein künstlicher Countdown, kein Rätselraten."
+      },
+      {
+        "title": "Launch",
+        "duration": "Wenn du zufrieden bist",
+        "description": "Der Livegang passiert erst, wenn du wirklich zufrieden bist — mit korrekt eingerichteter Domain, Hosting und Analytics."
+      },
+      {
+        "title": "Betreuung",
+        "duration": "Laufend",
+        "description": "Auch nach dem Launch bleibe ich erreichbar — für Fragen, kleine Anpassungen oder das gelegentliche „können wir das noch ändern“."
+      }
     ]
   },
   "FAQ": {
@@ -237,13 +299,34 @@
     "title": "Fragen, die du vielleicht hast",
     "description": "Falls etwas hier nicht beantwortet wird, frag einfach — ich antworte meist innerhalb eines Tages.",
     "items": [
-      { "question": "Wie lange dauert ein typisches Projekt?", "answer": "Bis zum ersten Prototyp dauert es maximal 5 Tage — das ist ein festes Versprechen, kein Richtwert. Wie lange es danach bis zum Launch dauert, hängt vom Umfang und von dir ab: Wir feilen so lange an Details, bis du wirklich zufrieden bist, statt stur einen Zeitplan durchzuziehen." },
-      { "question": "Was brauchst du von mir, um zu starten?", "answer": "Nur Klarheit über deine Ziele und vorhandene Markenmaterialien. Den Rest kläre ich mit dir in einem kurzen Erstgespräch und einem einfachen Fragebogen." },
-      { "question": "Wie viele Korrekturschleifen sind enthalten?", "answer": "Jedes Projekt enthält strukturierte Feedback-Runden bei Design und Entwicklung. In der Praxis brauchen die meisten Projekte weniger Korrekturen als erwartet, weil wir uns früh auf die Richtung einigen." },
-      { "question": "Gehört mir die Webseite nach der Fertigstellung?", "answer": "Ja, vollständig. Quellcode, Design-Dateien und Hosting-Zugang gehören dir ab dem Launch. Kein Lock-in, nichts wird zurückgehalten." },
-      { "question": "Mit welcher Technologie wird gebaut?", "answer": "Moderner, produktionsreifer Code — meist Next.js und React — für Geschwindigkeit, Zuverlässigkeit und langfristige Wartbarkeit. Keine Drag-and-Drop-Baukästen, keine überladenen Plugins." },
-      { "question": "Was passiert nach dem Launch?", "answer": "Ich bleibe erreichbar für Fragen und kleine Anpassungen. Für laufende Änderungen enthalten die Pakete Growth und Custom Support-Zeiträume, oder wir vereinbaren eine einfache monatliche Betreuung." },
-      { "question": "Arbeitest du auch mit Unternehmen außerhalb deiner Region?", "answer": "Ja — der gesamte Prozess ist auf Remote-Zusammenarbeit ausgelegt, über Calls, E-Mail und ein gemeinsames Projekt-Board, unabhängig davon, wo du sitzt." }
+      {
+        "question": "Wie lange dauert ein typisches Projekt?",
+        "answer": "Bis zum ersten Prototyp dauert es maximal 5 Tage — das ist ein festes Versprechen, kein Richtwert. Wie lange es danach bis zum Launch dauert, hängt vom Umfang und von dir ab: Wir feilen so lange an Details, bis du wirklich zufrieden bist, statt stur einen Zeitplan durchzuziehen."
+      },
+      {
+        "question": "Was brauchst du von mir, um zu starten?",
+        "answer": "Nur Klarheit über deine Ziele und vorhandene Markenmaterialien. Den Rest kläre ich mit dir in einem kurzen Erstgespräch und einem einfachen Fragebogen."
+      },
+      {
+        "question": "Wie viele Korrekturschleifen sind enthalten?",
+        "answer": "Jedes Projekt enthält strukturierte Feedback-Runden bei Design und Entwicklung. In der Praxis brauchen die meisten Projekte weniger Korrekturen als erwartet, weil wir uns früh auf die Richtung einigen."
+      },
+      {
+        "question": "Gehört mir die Webseite nach der Fertigstellung?",
+        "answer": "Ja, vollständig. Quellcode, Design-Dateien und Hosting-Zugang gehören dir ab dem Launch. Kein Lock-in, nichts wird zurückgehalten."
+      },
+      {
+        "question": "Mit welcher Technologie wird gebaut?",
+        "answer": "Moderner, produktionsreifer Code — meist Next.js und React — für Geschwindigkeit, Zuverlässigkeit und langfristige Wartbarkeit. Keine Drag-and-Drop-Baukästen, keine überladenen Plugins."
+      },
+      {
+        "question": "Was passiert nach dem Launch?",
+        "answer": "Ich bleibe erreichbar für Fragen und kleine Anpassungen. Für laufende Änderungen enthalten die Pakete Growth und Custom Support-Zeiträume, oder wir vereinbaren eine einfache monatliche Betreuung."
+      },
+      {
+        "question": "Arbeitest du auch mit Unternehmen außerhalb deiner Region?",
+        "answer": "Ja — der gesamte Prozess ist auf Remote-Zusammenarbeit ausgelegt, über Calls, E-Mail und ein gemeinsames Projekt-Board, unabhängig davon, wo du sitzt."
+      }
     ]
   },
   "Contact": {
@@ -269,8 +352,18 @@
       "successDescription": "Danke für deine Nachricht — ich melde mich innerhalb eines Werktages bei dir.",
       "error": "Etwas ist schiefgelaufen — bitte schreibe direkt an hello@maxdigital.studio"
     },
-    "projectTypes": ["Neue Webseite", "Redesign", "Markenidentität", "Etwas anderes"],
-    "budgets": ["Unter 3.000 €", "3.000–6.000 €", "6.000–12.000 €", "12.000 €+"]
+    "projectTypes": [
+      "Neue Webseite",
+      "Redesign",
+      "Markenidentität",
+      "Etwas anderes"
+    ],
+    "budgets": [
+      "Unter 3.000 €",
+      "3.000–6.000 €",
+      "6.000–12.000 €",
+      "12.000 €+"
+    ]
   },
   "Footer": {
     "description": "Ein Boutique-Webstudio, das hochwertige Webseiten für Unternehmen gestaltet und entwickelt, die nicht nur gesehen, sondern denen auch vertraut wird.",
