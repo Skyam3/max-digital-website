@@ -44,6 +44,13 @@ export default defineConfig({
     "main",
   clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID || "",
   token: process.env.TINA_TOKEN || "",
+  ui: {
+    // Lets the admin show a "view preview" link for whichever branch this
+    // deployment is serving (e.g. content-edits) instead of only main.
+    previewUrl: (context) => ({
+      url: `https://max-digital-website-git-${context.branch}-skyam3s-projects.vercel.app`,
+    }),
+  },
   build: {
     outputFolder: "admin",
     publicFolder: "public",
