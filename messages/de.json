@@ -213,14 +213,113 @@
     "solutionLabel": "Lösung",
     "technologyLabel": "Technologie",
     "liveLabel": "Live",
+    "pilotLabel": "Pilotprojekt",
     "conceptLabel": "Konzeptprojekt",
+    "beforeAfterLabel": "Vorher → Nachher",
+    "beforeLabel": "Vorher",
+    "afterLabel": "Nachher",
     "cta": "Ähnliches Projekt starten",
+    "carouselPrevious": "Vorheriges Bild",
+    "carouselNext": "Nächstes Bild",
+    "carouselGoToImage": "Bild {number} anzeigen",
     "projects": [
       {
         "id": "maxdigital",
         "name": "MAX Digital",
         "type": "Markenwebsite",
-        "live": true,
+        "status": "live",
+        "images": [
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-01.png",
+            "width": 1440,
+            "height": 885
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-02.png",
+            "width": 1440,
+            "height": 1014
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-03.png",
+            "width": 1440,
+            "height": 1322
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-04.png",
+            "width": 1440,
+            "height": 1156
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-05.png",
+            "width": 1440,
+            "height": 1194
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-06.png",
+            "width": 1440,
+            "height": 1211
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-07.png",
+            "width": 1440,
+            "height": 841
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-08.png",
+            "width": 1440,
+            "height": 827
+          }
+        ],
+        "beforeAfterImages": [
+          {
+            "before": {
+              "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-before-01.png",
+              "width": 1440,
+              "height": 882
+            },
+            "after": {
+              "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-01.png",
+              "width": 1440,
+              "height": 885
+            }
+          },
+          {
+            "before": {
+              "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-before-02.png",
+              "width": 1440,
+              "height": 595
+            },
+            "after": {
+              "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-02.png",
+              "width": 1440,
+              "height": 1014
+            }
+          },
+          {
+            "before": {
+              "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-before-03.png",
+              "width": 1440,
+              "height": 721
+            },
+            "after": {
+              "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-06.png",
+              "width": 1440,
+              "height": 1211
+            }
+          },
+          {
+            "before": {
+              "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-before-04.png",
+              "width": 1440,
+              "height": 292
+            },
+            "after": {
+              "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-08.png",
+              "width": 1440,
+              "height": 827
+            }
+          }
+        ],
         "summary": "Die Webseite, auf der du dich gerade befindest — als eigenes Fallbeispiel.",
         "goal": "Potenziellen Kunden in den ersten Sekunden zeigen, dass hier mit Sorgfalt gearbeitet wird — und aus Besuchern Erstgespräche machen.",
         "challenge": "Ein Ein-Personen-Studio muss genauso vertrauenswürdig wirken wie eine etablierte Agentur, ohne unpersönlich oder generisch zu werden.",
@@ -228,26 +327,100 @@
         "technology": "Next.js, TypeScript, Tailwind CSS, Framer Motion"
       },
       {
-        "id": "fantasyuniverse",
-        "name": "Fantasy Universe",
-        "type": "Web App",
-        "live": false,
-        "summary": "Eine Plattform für Spielleiter, um ihre Fantasy-Kampagnenwelten aufzubauen und mit ihrer Gruppe zu teilen.",
-        "goal": "Spielleitern ein Werkzeug geben, mit dem Lore, Karten und Charaktere an einem Ort strukturiert zusammenlaufen.",
-        "challenge": "Enorme Mengen an Lore und Verzweigungen mussten durchsuchbar bleiben, ohne die Kreativität einzuschränken oder die Oberfläche zu überladen.",
-        "solution": "Eine visuelle Weltkarte als zentraler Einstiegspunkt, verknüpft mit einem modularen Wiki-System und einer dunklen, atmosphärischen Bildsprache.",
-        "technology": "Next.js, Supabase, Mapbox"
+        "id": "maksimtales",
+        "name": "MaksimTales",
+        "type": "Story-Plattform",
+        "status": "live",
+        "images": [
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maksimtales-01.png",
+            "width": 1440,
+            "height": 737
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maksimtales-02.png",
+            "width": 1280,
+            "height": 819
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maksimtales-03.png",
+            "width": 1280,
+            "height": 596
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maksimtales-04.png",
+            "width": 1280,
+            "height": 295
+          }
+        ],
+        "summary": "Ein zentraler Ort für mein eigenes Fantasy-Buch-Universum — Geschichten, Lore und Bilder an einem Platz.",
+        "goal": "Einen zentralen Ort für mein wachsendes Fantasy-Buch-Universum schaffen — Buchreihe, Kurzgeschichten und Kinderbücher an einem Platz statt verstreut.",
+        "challenge": "Viel Lore und Content strukturiert zeigen, ohne dass die Seite unübersichtlich wirkt.",
+        "solution": "Eine fokussierte Startseite mit klarer Navigation zwischen Buchreihe, Kurzgeschichten und Hintergrundwissen zur Welt, plus einer Warteliste für neue Kapitel — in einer ruhigen, atmosphärischen Bildsprache passend zum Fantasy-Setting.",
+        "technology": "Next.js, TypeScript, Tailwind CSS"
       },
       {
-        "id": "tilecompany",
-        "name": "Tile Company",
-        "type": "E-Commerce",
-        "live": false,
-        "summary": "Ein digitaler Katalog für einen Fliesen- und Natursteinhändler, gedacht für Architekten, Handwerker und Privatkunden.",
-        "goal": "Das passende Material schnell auffindbar machen und unkompliziert Muster anfragen lassen.",
-        "challenge": "Ein traditionelles Handwerksunternehmen sollte online hochwertig und zeitgemäß wirken, ohne die bestehende Stammkundschaft zu verunsichern.",
-        "solution": "Ein reduzierter Katalog mit großformatiger Materialdarstellung, Filterung nach Farbe, Format und Oberfläche, und einer einfachen Musteranfrage statt komplexem Checkout.",
-        "technology": "Sanity CMS, Next.js, Algolia"
+        "id": "fliesenprototyp",
+        "name": "Fliesenleger-Website",
+        "type": "Unternehmenswebsite",
+        "status": "pilot",
+        "images": [
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-01.png",
+            "width": 1440,
+            "height": 900
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-02.png",
+            "width": 1440,
+            "height": 783
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-03.png",
+            "width": 1440,
+            "height": 1214
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-04.png",
+            "width": 1440,
+            "height": 1156
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-05.png",
+            "width": 1440,
+            "height": 710
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-06.png",
+            "width": 1440,
+            "height": 1377
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-07.png",
+            "width": 1440,
+            "height": 830
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-08.png",
+            "width": 1440,
+            "height": 643
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-09.png",
+            "width": 1440,
+            "height": 920
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-10.png",
+            "width": 1440,
+            "height": 713
+          }
+        ],
+        "summary": "Ein Website-Prototyp für einen regionalen Fliesenleger-Betrieb, vorab mit Platzhalter-Inhalten entwickelt.",
+        "goal": "Einem regionalen Handwerksbetrieb zeigen, wie eine professionelle Website für ihn aussehen könnte, bevor er sich entscheidet.",
+        "challenge": "Vertrauen bei einem etablierten Betrieb ohne bisherige Web-Präsenz aufbauen.",
+        "solution": "Eine hochwertige, bildstarke Startseite mit klarer Leistungsübersicht, Referenzen und Kundenbewertungen — als konkretes Gesprächsangebot statt einer abstrakten Beschreibung.",
+        "technology": "Next.js, TypeScript, Tailwind CSS"
       }
     ]
   },

@@ -1,4 +1,5 @@
 import { defineConfig } from "tinacms";
+import { SizedImageField } from "./fields/sized-image-field";
 
 // Schritt 1: Nur Text-Felder, lokal. Kein Tina-Cloud-Auth, keine Bilder.
 // Tina liest/schreibt DIREKT messages/de.json und messages/en.json —
@@ -18,6 +19,37 @@ const trustItem = {
   list: true,
   fields: [textField("title", "Titel"), textField("description", "Beschreibung", true)],
 };
+
+// A { src, width, height } image group: `src` uses our custom
+// SizedImageField (see tina/fields/sized-image-field.tsx), which reads the
+// uploaded file's real pixel size and writes it into these `width`/`height`
+// siblings automatically — editors only ever pick/replace the image itself.
+const sizedImageFields = () => [
+  {
+    type: "image" as const,
+    name: "src",
+    label: "Bild",
+    uploadDir: () => "portfolio",
+    // @tinacms/schema-tools's declared `ui.component` signature doesn't
+    // match what Tina's FieldsBuilder actually passes at render time (it
+    // claims `onChange` receives a ChangeEvent and omits `form` entirely;
+    // in reality image fields get the raw value and a `form` prop — see
+    // tina/fields/sized-image-field.tsx and tinacms's own ImageField/
+    // InnerField source). Verified against actual behavior, not guessed.
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    ui: { component: SizedImageField as any },
+  },
+  {
+    type: "number" as const,
+    name: "width",
+    label: "Breite in px (automatisch beim Bild-Upload gesetzt)",
+  },
+  {
+    type: "number" as const,
+    name: "height",
+    label: "Höhe in px (automatisch beim Bild-Upload gesetzt)",
+  },
+];
 
 const featureListItem = (name: string, label: string) => ({
   type: "object" as const,
@@ -210,7 +242,11 @@ export default defineConfig({
               textField("solutionLabel", "Label: Lösung"),
               textField("technologyLabel", "Label: Technologie"),
               textField("liveLabel", "Label: Live"),
+              textField("pilotLabel", "Label: Pilotprojekt"),
               textField("conceptLabel", "Label: Konzeptprojekt"),
+              textField("beforeAfterLabel", "Label: Vorher/Nachher-Badge"),
+              textField("beforeLabel", "Label: Vorher (Spaltenbeschriftung)"),
+              textField("afterLabel", "Label: Nachher (Spaltenbeschriftung)"),
               textField("cta", "CTA-Button"),
               {
                 type: "object",
@@ -221,7 +257,29 @@ export default defineConfig({
                   textField("id", "ID"),
                   textField("name", "Name"),
                   textField("type", "Typ"),
-                  { type: "boolean", name: "live", label: "Live?" },
+                  {
+                    type: "string",
+                    name: "status",
+                    label: "Status",
+                    options: ["live", "pilot", "concept"],
+                  },
+                  {
+                    type: "object",
+                    name: "images",
+                    label: "Vorschaubilder (Karussell, leer = abstrakte Preview-Komponente)",
+                    list: true,
+                    fields: sizedImageFields(),
+                  },
+                  {
+                    type: "object",
+                    name: "beforeAfterImages",
+                    label: "Vorher/Nachher-Bildpaare (falls gesetzt: eigene Regler-Darstellung statt normalem Karussell)",
+                    list: true,
+                    fields: [
+                      { type: "object", name: "before", label: "Vorher", fields: sizedImageFields() },
+                      { type: "object", name: "after", label: "Nachher", fields: sizedImageFields() },
+                    ],
+                  },
                   textField("summary", "Zusammenfassung", true),
                   textField("goal", "Ziel", true),
                   textField("challenge", "Herausforderung", true),

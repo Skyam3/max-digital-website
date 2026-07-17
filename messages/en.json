@@ -85,32 +85,56 @@
       {
         "title": "Business Websites",
         "description": "A professional website that represents your business credibly — from the homepage to the contact form.",
-        "features": ["Custom design", "Clear structure & navigation", "Optimized for every device"]
+        "features": [
+          "Custom design",
+          "Clear structure & navigation",
+          "Optimized for every device"
+        ]
       },
       {
         "title": "Landing Pages",
         "description": "Focused pages built around a single action — perfect for campaigns, product launches, or offers.",
-        "features": ["One clear conversion goal", "Live fast", "A/B-testable"]
+        "features": [
+          "One clear conversion goal",
+          "Live fast",
+          "A/B-testable"
+        ]
       },
       {
         "title": "Website Redesign",
         "description": "Is your website outdated or underperforming? I'll give it a modern, faster foundation.",
-        "features": ["Carries over existing content", "Modern design", "Rebuilt from the ground up"]
+        "features": [
+          "Carries over existing content",
+          "Modern design",
+          "Rebuilt from the ground up"
+        ]
       },
       {
         "title": "Performance Optimization",
         "description": "Slow pages cost you customers. I make sure load times never drive people away.",
-        "features": ["Core Web Vitals", "Image optimization", "Clean, lean code"]
+        "features": [
+          "Core Web Vitals",
+          "Image optimization",
+          "Clean, lean code"
+        ]
       },
       {
         "title": "SEO Fundamentals",
         "description": "The technical foundation that lets Google actually find and understand your site.",
-        "features": ["Clean page structure", "Metadata & sitemaps", "Analytics setup"]
+        "features": [
+          "Clean page structure",
+          "Metadata & sitemaps",
+          "Analytics setup"
+        ]
       },
       {
         "title": "Maintenance & Care",
         "description": "Launch day isn't the finish line. I handle updates, small changes, and day-to-day upkeep.",
-        "features": ["Monthly update windows", "Priority response time", "No long-term lock-in"]
+        "features": [
+          "Monthly update windows",
+          "Priority response time",
+          "No long-term lock-in"
+        ]
       }
     ]
   },
@@ -129,28 +153,54 @@
         "price": "From $990",
         "foundingPrice": "From $690",
         "description": "A focused page built around one clear goal — perfect if you want to be visible online quickly, without complexity.",
-        "features": ["1 page", "Built around one goal (contact/call)", "Custom design", "Mobile optimized", "Basic on-page SEO", "First prototype after 5 days"]
+        "features": [
+          "1 page",
+          "Built around one goal (contact/call)",
+          "Custom design",
+          "Mobile optimized",
+          "Basic on-page SEO",
+          "First prototype after 5 days"
+        ]
       },
       {
         "name": "Starter",
         "price": "From $2,400",
         "foundingPrice": "From $1,590",
         "description": "A focused, professional site for businesses just getting their online presence right.",
-        "features": ["Up to 5 pages", "Fully custom design", "Mobile & tablet optimized", "Basic on-page SEO", "First prototype after 5 days"]
+        "features": [
+          "Up to 5 pages",
+          "Fully custom design",
+          "Mobile & tablet optimized",
+          "Basic on-page SEO",
+          "First prototype after 5 days"
+        ]
       },
       {
         "name": "Growth",
         "price": "From $5,800",
         "foundingPrice": "From $3,990",
         "description": "A complete site with the content tools and structure to grow with your business.",
-        "features": ["Up to 10 pages", "Custom design system", "Editable content (CMS)", "Advanced SEO & analytics", "30 days of post-launch support", "First prototype after 5 days"]
+        "features": [
+          "Up to 10 pages",
+          "Custom design system",
+          "Editable content (CMS)",
+          "Advanced SEO & analytics",
+          "30 days of post-launch support",
+          "First prototype after 5 days"
+        ]
       },
       {
         "name": "Custom",
         "price": "Let's talk",
         "priceOnRequest": true,
         "description": "For e-commerce, web apps, or anything with requirements beyond a standard site.",
-        "features": ["Unlimited pages", "E-commerce or custom features", "Dedicated project plan", "Ongoing care available", "Flexible timeline"]
+        "features": [
+          "Unlimited pages",
+          "E-commerce or custom features",
+          "Dedicated project plan",
+          "Ongoing care available",
+          "Flexible timeline"
+        ]
       }
     ]
   },
@@ -163,14 +213,113 @@
     "solutionLabel": "Solution",
     "technologyLabel": "Technology",
     "liveLabel": "Live",
+    "pilotLabel": "Pilot project",
     "conceptLabel": "Concept project",
+    "beforeAfterLabel": "Before → After",
+    "beforeLabel": "Before",
+    "afterLabel": "After",
     "cta": "Start a similar project",
+    "carouselPrevious": "Previous image",
+    "carouselNext": "Next image",
+    "carouselGoToImage": "Show image {number}",
     "projects": [
       {
         "id": "maxdigital",
         "name": "MAX Digital",
         "type": "Brand Website",
-        "live": true,
+        "status": "live",
+        "images": [
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-01.png",
+            "width": 1440,
+            "height": 885
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-02.png",
+            "width": 1440,
+            "height": 1014
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-03.png",
+            "width": 1440,
+            "height": 1322
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-04.png",
+            "width": 1440,
+            "height": 1156
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-05.png",
+            "width": 1440,
+            "height": 1194
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-06.png",
+            "width": 1440,
+            "height": 1211
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-07.png",
+            "width": 1440,
+            "height": 841
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-08.png",
+            "width": 1440,
+            "height": 827
+          }
+        ],
+        "beforeAfterImages": [
+          {
+            "before": {
+              "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-before-01.png",
+              "width": 1440,
+              "height": 882
+            },
+            "after": {
+              "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-01.png",
+              "width": 1440,
+              "height": 885
+            }
+          },
+          {
+            "before": {
+              "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-before-02.png",
+              "width": 1440,
+              "height": 595
+            },
+            "after": {
+              "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-02.png",
+              "width": 1440,
+              "height": 1014
+            }
+          },
+          {
+            "before": {
+              "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-before-03.png",
+              "width": 1440,
+              "height": 721
+            },
+            "after": {
+              "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-06.png",
+              "width": 1440,
+              "height": 1211
+            }
+          },
+          {
+            "before": {
+              "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-before-04.png",
+              "width": 1440,
+              "height": 292
+            },
+            "after": {
+              "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maxdigital-08.png",
+              "width": 1440,
+              "height": 827
+            }
+          }
+        ],
         "summary": "The very site you're on right now — its own case study.",
         "goal": "Show potential clients in the first few seconds that this is careful, considered work — and turn visitors into intro calls.",
         "challenge": "A one-person studio has to feel just as trustworthy as an established agency, without turning impersonal or generic.",
@@ -178,26 +327,100 @@
         "technology": "Next.js, TypeScript, Tailwind CSS, Framer Motion"
       },
       {
-        "id": "fantasyuniverse",
-        "name": "Fantasy Universe",
-        "type": "Web App",
-        "live": false,
-        "summary": "A platform for game masters to build their fantasy campaign worlds and share them with their group.",
-        "goal": "Give game masters one place where lore, maps and characters come together in a structured way.",
-        "challenge": "Huge amounts of lore and branching detail needed to stay searchable without constraining creativity or cluttering the interface.",
-        "solution": "A visual world map as the central entry point, linked to a modular wiki system, wrapped in a dark, atmospheric visual language.",
-        "technology": "Next.js, Supabase, Mapbox"
+        "id": "maksimtales",
+        "name": "MaksimTales",
+        "type": "Story platform",
+        "status": "live",
+        "images": [
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maksimtales-01.png",
+            "width": 1440,
+            "height": 737
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maksimtales-02.png",
+            "width": 1280,
+            "height": 819
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maksimtales-03.png",
+            "width": 1280,
+            "height": 596
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/maksimtales-04.png",
+            "width": 1280,
+            "height": 295
+          }
+        ],
+        "summary": "A central home for my own fantasy book universe — stories, lore and art in one place.",
+        "goal": "Create a central home for my growing fantasy book universe — a series, short stories and children's books in one place instead of scattered around.",
+        "challenge": "Show a large amount of lore and content in a structured way without the site feeling cluttered.",
+        "solution": "A focused homepage with clear navigation between the book series, short stories and world lore, plus a waitlist for new chapters — wrapped in a calm, atmospheric visual language fitting the fantasy setting.",
+        "technology": "Next.js, TypeScript, Tailwind CSS"
       },
       {
-        "id": "tilecompany",
-        "name": "Tile Company",
-        "type": "E-commerce",
-        "live": false,
-        "summary": "A digital catalog for a tile and natural stone supplier, built for architects, contractors and homeowners.",
-        "goal": "Make it fast to find the right material and easy to request a sample.",
-        "challenge": "A traditional trade business needed to feel premium and current online, without alienating its existing customer base.",
-        "solution": "A reduced catalog with large-format material presentation, filtering by color, format and finish, and a simple sample request instead of a full checkout.",
-        "technology": "Sanity CMS, Next.js, Algolia"
+        "id": "fliesenprototyp",
+        "name": "Tiling Business Website",
+        "type": "Business Website",
+        "status": "pilot",
+        "images": [
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-01.png",
+            "width": 1440,
+            "height": 900
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-02.png",
+            "width": 1440,
+            "height": 783
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-03.png",
+            "width": 1440,
+            "height": 1214
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-04.png",
+            "width": 1440,
+            "height": 1156
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-05.png",
+            "width": 1440,
+            "height": 710
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-06.png",
+            "width": 1440,
+            "height": 1377
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-07.png",
+            "width": 1440,
+            "height": 830
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-08.png",
+            "width": 1440,
+            "height": 643
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-09.png",
+            "width": 1440,
+            "height": 920
+          },
+          {
+            "src": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/portfolio/fliesen-10.png",
+            "width": 1440,
+            "height": 713
+          }
+        ],
+        "summary": "A website prototype for a regional tiling business, built ahead of time with placeholder content.",
+        "goal": "Show a regional trade business what a professional website could look like for them, before they commit.",
+        "challenge": "Build trust for an established business with no prior web presence.",
+        "solution": "A premium, image-led homepage with a clear services overview, references and customer reviews — a concrete conversation starter instead of an abstract description.",
+        "technology": "Next.js, TypeScript, Tailwind CSS"
       }
     ]
   },
@@ -237,11 +460,31 @@
     "title": "A clear path from idea to launch",
     "description": "No black boxes. You always know what's happening and what's next.",
     "steps": [
-      { "title": "Free intro call", "duration": "15–30 minutes", "description": "We talk about your business, your goals, and whether we're a good fit — no cost, no obligation." },
-      { "title": "First prototype", "duration": "Within 5 days", "description": "You get a real, visible first draft of your website — not a concept deck, not a buzzword pitch, but something you can actually look at and judge." },
-      { "title": "Refinement", "duration": "Until it's right", "description": "The prototype becomes the finished site — in clear feedback rounds, for as long as it genuinely takes. No artificial countdown, no guessing." },
-      { "title": "Launch", "duration": "When you're happy", "description": "Go-live happens once you're genuinely satisfied — with domain, hosting and analytics all set up correctly." },
-      { "title": "Support", "duration": "Ongoing", "description": "I stay reachable after launch — for questions, small updates, or the occasional 'can we change this' request." }
+      {
+        "title": "Free intro call",
+        "duration": "15–30 minutes",
+        "description": "We talk about your business, your goals, and whether we're a good fit — no cost, no obligation."
+      },
+      {
+        "title": "First prototype",
+        "duration": "Within 5 days",
+        "description": "You get a real, visible first draft of your website — not a concept deck, not a buzzword pitch, but something you can actually look at and judge."
+      },
+      {
+        "title": "Refinement",
+        "duration": "Until it's right",
+        "description": "The prototype becomes the finished site — in clear feedback rounds, for as long as it genuinely takes. No artificial countdown, no guessing."
+      },
+      {
+        "title": "Launch",
+        "duration": "When you're happy",
+        "description": "Go-live happens once you're genuinely satisfied — with domain, hosting and analytics all set up correctly."
+      },
+      {
+        "title": "Support",
+        "duration": "Ongoing",
+        "description": "I stay reachable after launch — for questions, small updates, or the occasional 'can we change this' request."
+      }
     ]
   },
   "FAQ": {
@@ -249,13 +492,34 @@
     "title": "Questions you might have",
     "description": "If something isn't covered here, just ask — I usually reply within a day.",
     "items": [
-      { "question": "How long does a typical project take?", "answer": "The first prototype takes 5 days, max — that's a fixed promise, not an estimate. How long it takes to launch after that depends on scope and on you: we keep refining details until you're genuinely happy, instead of forcing a deadline that doesn't fit." },
-      { "question": "What do you need from me to get started?", "answer": "Just clarity on your goals and any existing brand assets you have. I'll guide you through the rest with a short discovery call and a simple questionnaire." },
-      { "question": "How many rounds of revisions do I get?", "answer": "Every project includes structured feedback rounds at both the design and development stages. In practice, most projects need far fewer revisions than expected, because we align on direction early." },
-      { "question": "Do I own the website after it's built?", "answer": "Yes, entirely. Source code, design files and hosting access are all handed over to you at launch. There's no lock-in and nothing held hostage." },
-      { "question": "What technology do you build with?", "answer": "Modern, production-grade code — typically Next.js and React — chosen for speed, reliability and long-term maintainability. No drag-and-drop page builders, no bloated plugins." },
-      { "question": "What happens after launch?", "answer": "I stay reachable for questions and small fixes. If you need ongoing updates, the Growth and Custom plans include support windows, or we can set up a simple monthly arrangement." },
-      { "question": "Do you work with businesses outside your local area?", "answer": "Yes — the entire process is designed to work remotely, over calls, email and a shared project board, regardless of where you're based." }
+      {
+        "question": "How long does a typical project take?",
+        "answer": "The first prototype takes 5 days, max — that's a fixed promise, not an estimate. How long it takes to launch after that depends on scope and on you: we keep refining details until you're genuinely happy, instead of forcing a deadline that doesn't fit."
+      },
+      {
+        "question": "What do you need from me to get started?",
+        "answer": "Just clarity on your goals and any existing brand assets you have. I'll guide you through the rest with a short discovery call and a simple questionnaire."
+      },
+      {
+        "question": "How many rounds of revisions do I get?",
+        "answer": "Every project includes structured feedback rounds at both the design and development stages. In practice, most projects need far fewer revisions than expected, because we align on direction early."
+      },
+      {
+        "question": "Do I own the website after it's built?",
+        "answer": "Yes, entirely. Source code, design files and hosting access are all handed over to you at launch. There's no lock-in and nothing held hostage."
+      },
+      {
+        "question": "What technology do you build with?",
+        "answer": "Modern, production-grade code — typically Next.js and React — chosen for speed, reliability and long-term maintainability. No drag-and-drop page builders, no bloated plugins."
+      },
+      {
+        "question": "What happens after launch?",
+        "answer": "I stay reachable for questions and small fixes. If you need ongoing updates, the Growth and Custom plans include support windows, or we can set up a simple monthly arrangement."
+      },
+      {
+        "question": "Do you work with businesses outside your local area?",
+        "answer": "Yes — the entire process is designed to work remotely, over calls, email and a shared project board, regardless of where you're based."
+      }
     ]
   },
   "Contact": {
@@ -281,8 +545,18 @@
       "successDescription": "Thanks for reaching out — I'll get back to you within one business day.",
       "error": "Something went wrong — please email hello@maxdigital.studio directly."
     },
-    "projectTypes": ["New website", "Redesign", "Brand identity", "Something else"],
-    "budgets": ["Under $3,000", "$3,000–$6,000", "$6,000–$12,000", "$12,000+"]
+    "projectTypes": [
+      "New website",
+      "Redesign",
+      "Brand identity",
+      "Something else"
+    ],
+    "budgets": [
+      "Under $3,000",
+      "$3,000–$6,000",
+      "$6,000–$12,000",
+      "$12,000+"
+    ]
   },
   "Footer": {
     "description": "A boutique web studio designing and building premium websites for businesses that want to be trusted, not just seen.",
