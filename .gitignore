@@ -36,6 +36,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# tinacms (auto-generated, rebuilt by `tinacms dev`/`tinacms build`)
+/tina/__generated__/
+/public/admin/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
