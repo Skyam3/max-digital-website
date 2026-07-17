@@ -49,10 +49,10 @@ export default defineConfig({
     publicFolder: "public",
   },
   media: {
-    tina: {
-      mediaRoot: "",
-      publicFolder: "public",
-    },
+    // Vercel Blob instead of repo-backed media — no official Tina adapter
+    // exists for it, so this is a custom store (tina/media-store.ts) backed
+    // by src/app/api/tina-media/route.ts.
+    loadCustomStore: async () => (await import("./media-store")).default,
   },
   schema: {
     collections: [
