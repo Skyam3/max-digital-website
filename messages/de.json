@@ -444,11 +444,27 @@
         },
         {
           "heading": "Kontaktformular",
-          "body": "Wenn du das Kontaktformular nutzt, werden die von dir angegebenen Daten (Name, E-Mail-Adresse, Projektart, Budget, Nachricht) ausschließlich zur Bearbeitung deiner Anfrage verwendet und nicht an Dritte weitergegeben. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Anfrage) bzw. lit. f (berechtigtes Interesse an der Kommunikation)."
+          "body": "Wenn du das Kontaktformular nutzt, werden die von dir angegebenen Daten (Name, E-Mail-Adresse, Projektart, Budget, Nachricht) zur Bearbeitung deiner Anfrage verwendet. Für den Versand — die Benachrichtigung an mich sowie eine automatische Eingangsbestätigung an dich — werden deine Daten zur Zustellung an den E-Mail-Dienst Resend übermittelt (siehe Abschnitt „E-Mail-Versand“). Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Anfrage) bzw. lit. f (berechtigtes Interesse an zuverlässiger Kommunikation)."
+        },
+        {
+          "heading": "E-Mail-Versand (Resend)",
+          "body": "Für den Versand von Kontaktformular-E-Mails setze ich den E-Mail-Zustelldienst Resend (Plus Five Five, Inc., USA) als Auftragsverarbeiter ein. Resend verarbeitet dabei ausschließlich die zur Zustellung nötigen Daten (u. a. deine E-Mail-Adresse) und leitet sie nicht an unabhängige Dritte weiter. Da Resend in den USA verarbeitet, erfolgt dies auf Grundlage von Standardvertragsklauseln — von der EU vorgegebene Vertragsbedingungen, die für ein vergleichbares Datenschutzniveau außerhalb der EU sorgen sollen. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Anfrage) bzw. lit. f (berechtigtes Interesse an zuverlässiger Kommunikation)."
         },
         {
           "heading": "Hosting",
-          "body": "[Platzhalter: Name und Sitz des Hosting-Anbieters, sobald final festgelegt — z. B. Vercel Inc. Bei Hosting außerhalb der EU/des EWR ist zusätzlich ein Hinweis auf die Übermittlungsgrundlage (z. B. Standardvertragsklauseln) erforderlich.]"
+          "body": "Diese Seite wird bei Vercel Inc. (440 N Barranca Avenue #4133, Covina, CA 91723, USA) gehostet. Beim Aufruf der Seite verarbeitet Vercel automatisch technische Server-Log-Daten (u. a. IP-Adresse, Browsertyp, Zugriffszeitpunkt), um die Seite auszuliefern und den Betrieb sicherzustellen. Vercel ist nach dem EU-U.S. Data Privacy Framework zertifiziert und setzt ergänzend Standardvertragsklauseln ein — von der EU vorgegebene Vertragsbedingungen, die für ein vergleichbares Datenschutzniveau außerhalb der EU sorgen sollen. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einem zuverlässigen und sicheren Betrieb der Webseite)."
+        },
+        {
+          "heading": "Bildmaterial (Vercel Blob Storage)",
+          "body": "Hochgeladene Bilder auf dieser Seite werden über Vercel Blob Storage ausgeliefert — ebenfalls ein Dienst von Vercel Inc. (siehe Abschnitt „Hosting“). Dein Browser lädt Bilddateien dabei direkt von einer eigenen Vercel-Blob-Domain, wodurch auch dabei technische Server-Log-Daten wie deine IP-Adresse verarbeitet werden. In diesem Speicher liegen ausschließlich von mir selbst hochgeladene Website-Bilder — niemals von dir eingegebene Daten. Rechtsgrundlage und Übermittlungsgrundlage entsprechen dem Abschnitt „Hosting“."
+        },
+        {
+          "heading": "Content-Verwaltung (Tina Cloud)",
+          "body": "Die Texte dieser Seite pflege ich über das Redaktionssystem TinaCMS/Tina Cloud (SSW USA, geschäftstätig als „Tina.io“), das Daten auf Servern in den USA verarbeitet, abgesichert durch Standardvertragsklauseln (siehe Abschnitt „Hosting“). Dieser Dienst kommt nur bei meiner eigenen Bearbeitung der Seiteninhalte zum Einsatz und verarbeitet dabei ausschließlich die Website-Texte und meine eigenen Zugangsdaten — nicht deine Daten als Besucher:in. Er wird hier der Vollständigkeit halber aufgeführt."
+        },
+        {
+          "heading": "Schriftarten",
+          "body": "Die auf dieser Seite verwendeten Schriftarten (Lora, Plus Jakarta Sans, IBM Plex Mono) werden beim Bau der Seite automatisch selbst eingebunden (next/font) und zusammen mit der übrigen Seite ausgeliefert. Dein Browser lädt sie nicht zur Laufzeit von Google-Servern — es findet keine Verbindung zu Google statt, und es werden keine Daten an Google übertragen."
         },
         {
           "heading": "Lokale Speicherung (Theme-Einstellung)",

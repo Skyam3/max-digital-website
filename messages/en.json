@@ -343,11 +343,27 @@
         },
         {
           "heading": "Contact Form",
-          "body": "If you use the contact form, the data you provide (name, email address, project type, budget, message) is used exclusively to handle your inquiry and is not shared with third parties. The legal basis is Art. 6(1)(b) GDPR (pre-contractual inquiry) or (f) (legitimate interest in communication)."
+          "body": "If you use the contact form, the data you provide (name, email address, project type, budget, message) is used to handle your inquiry. To send it — the notification to me and an automatic confirmation reply to you — your data is passed on for delivery to the email service Resend (see \"Email Delivery\" below). The legal basis is Art. 6(1)(b) GDPR (pre-contractual inquiry) or (f) (legitimate interest in reliable communication)."
+        },
+        {
+          "heading": "Email Delivery (Resend)",
+          "body": "I use the email delivery service Resend (Plus Five Five, Inc., USA) as a processor to send contact form emails. Resend only processes the data needed for delivery (including your email address) and does not pass it on to independent third parties. Since Resend processes data in the US, this is based on Standard Contractual Clauses — contract terms set by the EU meant to ensure a comparable level of data protection outside the EU. The legal basis is Art. 6(1)(b) GDPR (pre-contractual inquiry) or (f) (legitimate interest in reliable communication)."
         },
         {
           "heading": "Hosting",
-          "body": "[Placeholder: name and location of the hosting provider, once finalized — e.g. Vercel Inc. If hosting outside the EU/EEA, an additional note on the transfer basis (e.g. Standard Contractual Clauses) is required.]"
+          "body": "This site is hosted with Vercel Inc. (440 N Barranca Avenue #4133, Covina, CA 91723, USA). When you visit the site, Vercel automatically processes technical server log data (e.g. IP address, browser type, access time) to deliver the site and keep it running. Vercel is certified under the EU-U.S. Data Privacy Framework and additionally relies on Standard Contractual Clauses — contract terms set by the EU meant to ensure a comparable level of data protection outside the EU. The legal basis is Art. 6(1)(f) GDPR (legitimate interest in reliable, secure operation of the website)."
+        },
+        {
+          "heading": "Images (Vercel Blob Storage)",
+          "body": "Uploaded images on this site are delivered via Vercel Blob Storage — also a Vercel Inc. service (see \"Hosting\" above). Your browser loads image files directly from a dedicated Vercel Blob domain, which likewise processes technical server log data such as your IP address. This storage contains only images I've uploaded myself — never data you enter. The legal and transfer basis match the \"Hosting\" section."
+        },
+        {
+          "heading": "Content Management (Tina Cloud)",
+          "body": "I manage this site's text content through the TinaCMS/Tina Cloud editorial system (SSW USA, doing business as \"Tina.io\"), which processes data on servers in the US, safeguarded by Standard Contractual Clauses (see \"Hosting\" above). This service is only used when I edit the site's content myself and only ever processes the website's text and my own login credentials — never your data as a visitor. It's listed here for full transparency."
+        },
+        {
+          "heading": "Fonts",
+          "body": "The fonts used on this site (Lora, Plus Jakarta Sans, IBM Plex Mono) are automatically self-hosted at build time (next/font) and served together with the rest of the site. Your browser never loads them from Google's servers at runtime — no connection to Google is made, and no data is transmitted to Google."
         },
         {
           "heading": "Local Storage (Theme Preference)",
