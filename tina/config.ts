@@ -233,6 +233,7 @@ export default defineConfig({
             label: "Über mich",
             fields: [
               textField("eyebrow", "Eyebrow"),
+              { type: "image", name: "portraitUrl", label: "Porträtfoto" },
               textField("founderName", "Name Gründer"),
               textField("founderRole", "Rolle Gründer"),
               textField("leadStatement", "Leitsatz", true),
