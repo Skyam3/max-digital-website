@@ -178,6 +178,9 @@ export default defineConfig({
               textField("description", "Beschreibung", true),
               textField("cta", "CTA-Button"),
               textField("popularBadge", "Badge „Am beliebtesten“"),
+              textField("foundingPriceBadge", "Badge „Gründungspreis“"),
+              textField("foundingPriceNote", "Gründungspreis-Hinweistext (unter dem Grid)", true),
+              textField("regularPriceLabel", "Label für den regulären Preis (z. B. „regulär“)"),
               {
                 type: "object",
                 name: "plans",
@@ -185,7 +188,8 @@ export default defineConfig({
                 list: true,
                 fields: [
                   textField("name", "Name"),
-                  textField("price", "Preis"),
+                  textField("price", "Regulärer Preis"),
+                  textField("foundingPrice", "Gründungspreis (falls leer: kein Gründungspreis, regulärer Preis wird groß angezeigt)"),
                   textField("description", "Beschreibung", true),
                   { type: "string", name: "features", label: "Features", list: true },
                   { type: "boolean", name: "priceOnRequest", label: "Preis auf Anfrage" },

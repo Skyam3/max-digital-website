@@ -144,29 +144,49 @@
     "description": "Jedes Projekt bekommt seinen eigenen Preis — das hier sind typische Startpunkte, damit du weißt, was dich erwartet, bevor wir sprechen.",
     "cta": "Loslegen",
     "popularBadge": "Am beliebtesten",
+    "foundingPriceBadge": "Gründungspreis",
+    "foundingPriceNote": "Gründungspreis: Für meine ersten Kunden — der Preis steigt, sobald ich ausgelastet bin.",
+    "regularPriceLabel": "regulär",
     "plans": [
+      {
+        "name": "Landingpage",
+        "price": "Ab 990 €",
+        "foundingPrice": "Ab 690 €",
+        "description": "Eine fokussierte Seite mit einem klaren Ziel — perfekt, wenn du schnell und unkompliziert online sichtbar sein willst.",
+        "features": [
+          "1 Seite",
+          "Klar auf ein Ziel ausgerichtet (Kontakt/Anruf)",
+          "Individuelles Design",
+          "Mobiloptimiert",
+          "Basis-SEO",
+          "Erster Prototyp nach 5 Tagen"
+        ]
+      },
       {
         "name": "Starter",
         "price": "Ab 2.400 €",
+        "foundingPrice": "Ab 1.590 €",
         "description": "Eine fokussierte, professionelle Seite für Unternehmen, die online endlich richtig auftreten wollen.",
         "features": [
           "Bis zu 5 Seiten",
           "Vollständig individuelles Design",
           "Für Mobilgeräte & Tablets optimiert",
           "Basis-SEO",
-          "2 Wochen Lieferzeit"
+          "Erster Prototyp nach 5 Tagen"
         ]
       },
       {
         "name": "Growth",
         "price": "Ab 5.800 €",
+        "foundingPrice": "Ab 3.990 €",
         "description": "Eine vollständige Webseite mit den Content-Tools und der Struktur, um mit deinem Unternehmen zu wachsen.",
         "features": [
           "Bis zu 10 Seiten",
           "Individuelles Design-System",
           "Bearbeitbare Inhalte (CMS)",
           "Erweiterte SEO & Analytics",
-          "30 Tage Support nach Launch"
+          "30 Tage Support nach Launch",
+          "Erster Prototyp nach 5 Tagen"
         ]
       },
       {

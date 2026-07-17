@@ -120,18 +120,30 @@
     "description": "Every project gets its own price — these are typical starting points so you know what to expect before we talk.",
     "cta": "Get started",
     "popularBadge": "Most popular",
+    "foundingPriceBadge": "Founding price",
+    "foundingPriceNote": "Founding price: for my first clients — the price goes up once I'm fully booked.",
+    "regularPriceLabel": "regular",
     "plans": [
+      {
+        "name": "Landing Page",
+        "price": "From $990",
+        "foundingPrice": "From $690",
+        "description": "A focused page built around one clear goal — perfect if you want to be visible online quickly, without complexity.",
+        "features": ["1 page", "Built around one goal (contact/call)", "Custom design", "Mobile optimized", "Basic on-page SEO", "First prototype after 5 days"]
+      },
       {
         "name": "Starter",
         "price": "From $2,400",
+        "foundingPrice": "From $1,590",
         "description": "A focused, professional site for businesses just getting their online presence right.",
-        "features": ["Up to 5 pages", "Fully custom design", "Mobile & tablet optimized", "Basic on-page SEO", "2 week delivery"]
+        "features": ["Up to 5 pages", "Fully custom design", "Mobile & tablet optimized", "Basic on-page SEO", "First prototype after 5 days"]
       },
       {
         "name": "Growth",
         "price": "From $5,800",
+        "foundingPrice": "From $3,990",
         "description": "A complete site with the content tools and structure to grow with your business.",
-        "features": ["Up to 10 pages", "Custom design system", "Editable content (CMS)", "Advanced SEO & analytics", "30 days of post-launch support"]
+        "features": ["Up to 10 pages", "Custom design system", "Editable content (CMS)", "Advanced SEO & analytics", "30 days of post-launch support", "First prototype after 5 days"]
       },
       {
         "name": "Custom",
