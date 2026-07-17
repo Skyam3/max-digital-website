@@ -37,9 +37,13 @@ const featureListItem = (name: string, label: string) => ({
 });
 
 export default defineConfig({
-  branch: "",
-  clientId: "",
-  token: "",
+  branch:
+    process.env.TINA_BRANCH ||
+    process.env.VERCEL_GIT_COMMIT_REF ||
+    process.env.HEAD ||
+    "main",
+  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID || "",
+  token: process.env.TINA_TOKEN || "",
   build: {
     outputFolder: "admin",
     publicFolder: "public",
