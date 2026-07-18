@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, type ReactElement } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import { useReducedMotion } from "framer-motion";
@@ -22,7 +22,7 @@ import { Button } from "@/components/ui/button";
 import { SpotlightCard } from "@/components/ui/spotlight-card";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
-import { LiveDot, MaxDigitalPreview } from "@/components/sections/portfolio-previews";
+import { LiveDot } from "@/components/sections/portfolio-previews";
 
 /** Real pixel dimensions travel with every screenshot so the carousel can
  * size its container to the image's actual aspect ratio instead of forcing
@@ -53,10 +53,6 @@ interface Project {
   solution: string;
   technology: string;
 }
-
-const PREVIEWS: Record<string, () => ReactElement> = {
-  maxdigital: MaxDigitalPreview,
-};
 
 export function Portfolio() {
   const t = useTranslations("Portfolio");
@@ -131,7 +127,6 @@ function CaseStudy({
   nextLabel: string;
   goToLabel: (n: number) => string;
 }) {
-  const Preview = PREVIEWS[project.id];
   const techList = project.technology.split(",").map((t) => t.trim());
   const hasBeforeAfter = !!project.beforeAfterImages && project.beforeAfterImages.length > 0;
 
@@ -158,8 +153,6 @@ function CaseStudy({
                 nextLabel={nextLabel}
                 goToLabel={goToLabel}
               />
-            ) : Preview ? (
-              <Preview />
             ) : null}
           </div>
         </div>

@@ -1,5 +1,3 @@
-"use client";
-
 import { ArrowUp } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { Container } from "@/components/ui/container";
