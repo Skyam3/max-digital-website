@@ -2,7 +2,7 @@
   "Metadata": {
     "title": "MAX Digital — Premium websites that build trust",
     "titleTemplate": "%s — MAX Digital",
-    "description": "A boutique web studio building premium websites that turn visitors into clients — designed and built personally by Max."
+    "description": "A boutique web studio building websites that turn visitors into clients — designed and built personally by Max."
   },
   "Common": {
     "skipToContent": "Skip to content"
@@ -31,11 +31,11 @@
     "titleStart": "Websites that make people",
     "titleHighlight": "trust you",
     "titleEnd": "before you say a word.",
-    "subtitle": "I design and build premium websites that turn visitors into clients — without the generic template look.",
+    "subtitle": "I design and build websites that turn visitors into clients — without the generic template look.",
     "primaryCta": "Free intro call",
     "secondaryCta": "See selected work",
     "trustPoints": [
-      "Fixed timelines",
+      "First prototype in 5 days",
       "Direct with me — no account managers",
       "You own everything"
     ],
@@ -84,7 +84,7 @@
     "items": [
       {
         "title": "Business Websites",
-        "description": "A professional website that represents your business credibly — from the homepage to the contact form.",
+        "description": "A website that represents your business credibly — from the homepage to the contact form.",
         "features": [
           "Custom design",
           "Clear structure & navigation",
@@ -166,7 +166,7 @@
         "name": "Starter",
         "price": "From $2,400",
         "foundingPrice": "From $1,590",
-        "description": "A focused, professional site for businesses just getting their online presence right.",
+        "description": "A focused site for businesses just getting their online presence right.",
         "features": [
           "Up to 5 pages",
           "Fully custom design",
@@ -417,9 +417,9 @@
           }
         ],
         "summary": "A website prototype for a regional tiling business, built ahead of time with placeholder content.",
-        "goal": "Show a regional trade business what a professional website could look like for them, before they commit.",
+        "goal": "Show a regional trade business what a website that wins customers could look like for them, before they commit.",
         "challenge": "Build trust for an established business with no prior web presence.",
-        "solution": "A premium, image-led homepage with a clear services overview, references and customer reviews — a concrete conversation starter instead of an abstract description.",
+        "solution": "An image-led homepage with a clear services overview, references and customer reviews — a concrete conversation starter instead of an abstract description.",
         "technology": "Next.js, TypeScript, Tailwind CSS"
       }
     ]
@@ -443,11 +443,11 @@
       },
       {
         "title": "Individual solutions, not templates",
-        "description": "No page builders, no drag-and-drop kits. Every site is designed and built specifically for your business."
+        "description": "Every site is designed specifically for your business — not clicked together from a page builder."
       },
       {
-        "title": "Modern technologies",
-        "description": "Built on the same technical foundation leading tech companies rely on."
+        "title": "Future-proof, not trend-chasing",
+        "description": "No framework that gets abandoned in two years — I build with tools that are still maintained and actively developed five years from now."
       },
       {
         "title": "Long-term thinking",
@@ -490,7 +490,7 @@
   "FAQ": {
     "eyebrow": "FAQ",
     "title": "Questions you might have",
-    "description": "If something isn't covered here, just ask — I usually reply within a day.",
+    "description": "If something isn't covered here, just ask — I usually reply within one business day.",
     "items": [
       {
         "question": "How long does a typical project take?",
@@ -502,7 +502,7 @@
       },
       {
         "question": "How many rounds of revisions do I get?",
-        "answer": "Every project includes structured feedback rounds at both the design and development stages. In practice, most projects need far fewer revisions than expected, because we align on direction early."
+        "answer": "There's no fixed cap — we keep going until you're genuinely happy, no artificial countdown. As a rough guide, most projects need up to three feedback rounds for design and development. Depending on the plan, up to 30 days of post-launch support are included too, in case something needs fine-tuning afterward."
       },
       {
         "question": "Do I own the website after it's built?",
@@ -559,7 +559,7 @@
     ]
   },
   "Footer": {
-    "description": "A boutique web studio designing and building premium websites for businesses that want to be trusted, not just seen.",
+    "description": "A boutique web studio designing and building websites for businesses that want to be trusted, not just seen.",
     "rights": "All rights reserved.",
     "backToTop": "Back to top",
     "impressum": "Legal Notice",

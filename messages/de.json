@@ -2,7 +2,7 @@
   "Metadata": {
     "title": "MAX Digital — Webseiten, die Vertrauen schaffen",
     "titleTemplate": "%s — MAX Digital",
-    "description": "Boutique-Webstudio für hochwertige Webseiten, die Vertrauen schaffen und aus Besuchern Kunden machen — persönlich entwickelt von Max."
+    "description": "Boutique-Webstudio für Webseiten, die Vertrauen schaffen und aus Besuchern Kunden machen — persönlich entwickelt von Max."
   },
   "Common": {
     "skipToContent": "Zum Inhalt springen"
@@ -27,15 +27,15 @@
     "closeMenu": "Menü schließen"
   },
   "Hero": {
-    "badge": "Aktuell teste ich mein Projekt im {month}",
+    "badge": "Aktuell nehme ich neue Projekte an für {month}",
     "titleStart": "Webseiten, die",
     "titleHighlight": "Vertrauen schaffen",
     "titleEnd": "– noch bevor du ein Wort sagst.",
-    "subtitle": "Ich gestalte und entwickle hochwertige Webseiten, die Besucher in Kunden verwandeln — ohne den Look von der Stange.",
+    "subtitle": "Ich gestalte und entwickle Webseiten, die Besucher in Kunden verwandeln — ohne den Look von der Stange.",
     "primaryCta": "Kostenloses Erstgespräch",
     "secondaryCta": "Ausgewählte Projekte ansehen",
     "trustPoints": [
-      "Feste Zeitpläne",
+      "Erster Prototyp in 5 Tagen",
       "Direkter Kontakt zu mir — keine Sachbearbeiter",
       "Du besitzt alles"
     ],
@@ -84,7 +84,7 @@
     "items": [
       {
         "title": "Unternehmenswebseiten",
-        "description": "Eine professionelle Webseite, die dein Unternehmen glaubwürdig repräsentiert — von der Startseite bis zum Kontaktformular.",
+        "description": "Eine Webseite, die dein Unternehmen glaubwürdig repräsentiert — von der Startseite bis zum Kontaktformular.",
         "features": [
           "Individuelles Design",
           "Klare Struktur & Navigation",
@@ -102,7 +102,7 @@
       },
       {
         "title": "Redesign bestehender Webseiten",
-        "description": "Deine Webseite ist veraltet oder performt schlecht? Ich gebe ihr ein zeitgemäßes, schnelleres Fundament.",
+        "description": "Deine Webseite ist veraltet oder lädt langsam? Ich gebe ihr ein zeitgemäßes, schnelleres Fundament.",
         "features": [
           "Bestehende Inhalte übernehmen",
           "Modernes Design",
@@ -140,7 +140,7 @@
   },
   "Pricing": {
     "eyebrow": "Preise",
-    "title": "Faire Preise, ohne Überraschungen",
+    "title": "Klare Preise, ohne Überraschungen",
     "description": "Jedes Projekt bekommt seinen eigenen Preis — das hier sind typische Startpunkte, damit du weißt, was dich erwartet, bevor wir sprechen.",
     "cta": "Loslegen",
     "popularBadge": "Am beliebtesten",
@@ -166,7 +166,7 @@
         "name": "Starter",
         "price": "Ab 2.400 €",
         "foundingPrice": "Ab 1.590 €",
-        "description": "Eine fokussierte, professionelle Seite für Unternehmen, die online endlich richtig auftreten wollen.",
+        "description": "Eine fokussierte Seite für Unternehmen, die online endlich richtig auftreten wollen.",
         "features": [
           "Bis zu 5 Seiten",
           "Vollständig individuelles Design",
@@ -417,9 +417,9 @@
           }
         ],
         "summary": "Ein Website-Prototyp für einen regionalen Fliesenleger-Betrieb, vorab mit Platzhalter-Inhalten entwickelt.",
-        "goal": "Einem regionalen Handwerksbetrieb zeigen, wie eine professionelle Website für ihn aussehen könnte, bevor er sich entscheidet.",
+        "goal": "Einem regionalen Handwerksbetrieb zeigen, wie eine Website für ihn aussehen könnte, die Kunden überzeugt, bevor er sich entscheidet.",
         "challenge": "Vertrauen bei einem etablierten Betrieb ohne bisherige Web-Präsenz aufbauen.",
-        "solution": "Eine hochwertige, bildstarke Startseite mit klarer Leistungsübersicht, Referenzen und Kundenbewertungen — als konkretes Gesprächsangebot statt einer abstrakten Beschreibung.",
+        "solution": "Eine bildstarke Startseite mit klarer Leistungsübersicht, Referenzen und Kundenbewertungen — als konkretes Gesprächsangebot statt einer abstrakten Beschreibung.",
         "technology": "Next.js, TypeScript, Tailwind CSS"
       }
     ]
@@ -443,11 +443,11 @@
       },
       {
         "title": "Individuelle Lösungen, keine Templates",
-        "description": "Kein Baukasten, kein Page-Builder. Jede Seite wird eigens für dein Unternehmen entworfen und gebaut."
+        "description": "Jede Seite wird für genau dein Unternehmen entworfen — nicht aus einem Baukasten zusammengeklickt."
       },
       {
-        "title": "Moderne Technologien",
-        "description": "Gebaut mit demselben technischen Fundament, auf das auch führende Tech-Unternehmen setzen."
+        "title": "Zukunftssicher statt Trend-Stack",
+        "description": "Kein Framework, das in zwei Jahren wieder abgekündigt wird — ich baue mit Werkzeugen, die auch in fünf Jahren noch gepflegt und weiterentwickelt werden."
       },
       {
         "title": "Langfristig gedacht",
@@ -490,7 +490,7 @@
   "FAQ": {
     "eyebrow": "FAQ",
     "title": "Fragen, die du vielleicht hast",
-    "description": "Falls etwas hier nicht beantwortet wird, frag einfach — ich antworte meist innerhalb eines Tages.",
+    "description": "Falls etwas hier nicht beantwortet wird, frag einfach — ich antworte meist innerhalb eines Werktages.",
     "items": [
       {
         "question": "Wie lange dauert ein typisches Projekt?",
@@ -502,7 +502,7 @@
       },
       {
         "question": "Wie viele Korrekturschleifen sind enthalten?",
-        "answer": "Jedes Projekt enthält strukturierte Feedback-Runden bei Design und Entwicklung. In der Praxis brauchen die meisten Projekte weniger Korrekturen als erwartet, weil wir uns früh auf die Richtung einigen."
+        "answer": "Es gibt keine feste Obergrenze — wir arbeiten so lange, bis du wirklich zufrieden bist, ohne künstlichen Countdown. Als Richtwert brauchen die meisten Projekte bis zu drei Feedback-Runden bei Design und Entwicklung. Je nach Paket sind zusätzlich bis zu 30 Tage Support nach dem Launch inklusive, falls danach noch etwas nachjustiert werden soll."
       },
       {
         "question": "Gehört mir die Webseite nach der Fertigstellung?",
@@ -559,7 +559,7 @@
     ]
   },
   "Footer": {
-    "description": "Ein Boutique-Webstudio, das hochwertige Webseiten für Unternehmen gestaltet und entwickelt, die nicht nur gesehen, sondern denen auch vertraut wird.",
+    "description": "Ein Boutique-Webstudio, das Webseiten für Unternehmen gestaltet und entwickelt, die nicht nur gesehen, sondern denen auch vertraut wird.",
     "rights": "Alle Rechte vorbehalten.",
     "backToTop": "Nach oben",
     "impressum": "Impressum",
