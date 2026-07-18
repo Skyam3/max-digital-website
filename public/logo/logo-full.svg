@@ -1,0 +1,16 @@
+<svg width="560" height="160" viewBox="0 0 560 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="fl"><rect x="20" y="20" width="60" height="120"/></clipPath>
+    <clipPath id="fr"><rect x="80" y="20" width="60" height="120"/></clipPath>
+  </defs>
+  <rect x="20" y="20" width="120" height="120" rx="26" fill="#660033"/>
+  <g clip-path="url(#fl)">
+    <text x="80" y="103" font-family="Fraunces, Georgia, serif" font-weight="700" font-size="80" fill="#D98404" text-anchor="middle">M</text>
+  </g>
+  <g clip-path="url(#fr)">
+    <text x="80" y="103" font-family="Fraunces, Georgia, serif" font-weight="700" font-size="80" fill="#F5EFE6" text-anchor="middle">M</text>
+  </g>
+  <rect x="56" y="112" width="48" height="8" rx="4" fill="#D98404"/>
+  <text x="168" y="82" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="46" fill="#1c1c1c">MAX</text>
+  <text x="168" y="120" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="500" font-size="28" fill="#5a564f">Digital</text>
+</svg>

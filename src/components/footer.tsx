@@ -1,7 +1,7 @@
 import { ArrowUp } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { Container } from "@/components/ui/container";
-import { Logo } from "@/components/logo";
+import { LogoFull } from "@/components/logo";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 
@@ -31,7 +31,7 @@ export function Footer() {
       <Container className="flex flex-col gap-12 py-16">
         <div className="flex flex-col justify-between gap-10 md:flex-row md:items-start">
           <div className="flex max-w-[320px] flex-col gap-4">
-            <Logo />
+            <LogoFull />
             <p className="text-small text-muted-foreground">{tFooter("description")}</p>
           </div>
 
