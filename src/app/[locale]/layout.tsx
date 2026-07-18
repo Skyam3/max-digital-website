@@ -147,7 +147,6 @@ export default async function RootLayout({
       suppressHydrationWarning
     >
       <head>
-        <Script src="/theme-init.js" strategy="beforeInteractive" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -167,6 +166,12 @@ export default async function RootLayout({
             </MotionProvider>
           </ThemeProvider>
         </NextIntlClientProvider>
+        {/* Next.js hoists beforeInteractive scripts into <head> regardless
+            of where they're placed — but only when placed as documented
+            (a sibling of <body>, not nested inside a hand-authored <head>).
+            Nesting it in <head> alongside another literal <script> tag is
+            what triggered React's "script tag while rendering" dev warning. */}
+        <Script src="/theme-init.js" strategy="beforeInteractive" />
       </body>
     </html>
   );
