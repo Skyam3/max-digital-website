@@ -526,7 +526,7 @@
     "eyebrow": "Contact",
     "title": "Let's build something worth trusting.",
     "description": "Tell me a bit about your project. No obligation — if it's not a fit, I'll tell you honestly and point you in a better direction.",
-    "email": "hello@maxdigital.studio",
+    "email": "kontakt.max.digital@gmail.com",
     "responseTime": "Usually replies within one business day",
     "noPressure": "No sales pitch, no spam — just an honest answer.",
     "form": {
@@ -543,7 +543,7 @@
       "submitting": "Sending…",
       "successTitle": "Message sent",
       "successDescription": "Thanks for reaching out — I'll get back to you within one business day.",
-      "error": "Something went wrong — please email hello@maxdigital.studio directly."
+      "error": "Something went wrong — please email kontakt.max.digital@gmail.com directly."
     },
     "projectTypes": [
       "New website",
@@ -578,7 +578,7 @@
         },
         {
           "heading": "Contact",
-          "body": "Email: hello@maxdigital.studio\nPhone: [Placeholder phone number]"
+          "body": "Email: kontakt.max.digital@gmail.com\nPhone: [Placeholder phone number]"
         },
         {
           "heading": "VAT ID",
@@ -613,7 +613,7 @@
       "sections": [
         {
           "heading": "Controller",
-          "body": "Max [Placeholder last name]\n[Placeholder address]\nEmail: hello@maxdigital.studio"
+          "body": "Max [Placeholder last name]\n[Placeholder address]\nEmail: kontakt.max.digital@gmail.com"
         },
         {
           "heading": "Contact Form",
@@ -645,7 +645,7 @@
         },
         {
           "heading": "Your Rights",
-          "body": "You have the right at any time to access, rectify, delete, or restrict the processing of your personal data, as well as a right to object to processing and a right to data portability. For questions, contact hello@maxdigital.studio. You also have the right to lodge a complaint with a data protection supervisory authority."
+          "body": "You have the right at any time to access, rectify, delete, or restrict the processing of your personal data, as well as a right to object to processing and a right to data portability. For questions, contact kontakt.max.digital@gmail.com. You also have the right to lodge a complaint with a data protection supervisory authority."
         }
       ]
     }

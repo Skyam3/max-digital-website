@@ -122,7 +122,7 @@ export default async function RootLayout({
           url: `${siteUrl}/icon.svg`,
         },
         description: tMeta("description"),
-        email: "hello@maxdigital.studio",
+        email: "kontakt.max.digital@gmail.com",
         founder: {
           "@type": "Person",
           name: "Max",

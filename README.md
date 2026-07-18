@@ -18,12 +18,6 @@ Open [http://localhost:3003](http://localhost:3003) with your browser to see it.
 
 A few things are still placeholders and need real content before this goes live:
 
-- `hello@maxdigital.studio` (in `messages/de.json` / `messages/en.json`,
-  under `Contact.email`) → your real inbox
-- `/api/contact` (`src/app/api/contact/route.ts`) → currently accepts and
-  logs submissions but doesn't deliver them anywhere; wire it to an email
-  provider (e.g. Resend) or CRM
-- Pricing figures — `messages/de.json` / `messages/en.json` under `Pricing`
 - The three "Portfolio" concept case studies (`Portfolio.projects` in the
   message files) → swap in real client work once available
 - **Legal pages** (`/impressum`, `/datenschutz` — content in

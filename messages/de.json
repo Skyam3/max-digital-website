@@ -526,7 +526,7 @@
     "eyebrow": "Kontakt",
     "title": "Lass uns etwas aufbauen, dem man vertrauen kann.",
     "description": "Erzähl mir kurz von deinem Projekt. Unverbindlich — falls es nicht passt, sage ich dir das ehrlich und zeige dir eine bessere Richtung.",
-    "email": "hello@maxdigital.studio",
+    "email": "kontakt.max.digital@gmail.com",
     "responseTime": "Antwortet meist innerhalb eines Werktages",
     "noPressure": "Keine Verkaufsmasche, kein Spam — nur eine ehrliche Antwort.",
     "form": {
@@ -543,7 +543,7 @@
       "submitting": "Wird gesendet …",
       "successTitle": "Nachricht gesendet",
       "successDescription": "Danke für deine Nachricht — ich melde mich innerhalb eines Werktages bei dir.",
-      "error": "Etwas ist schiefgelaufen — bitte schreibe direkt an hello@maxdigital.studio"
+      "error": "Etwas ist schiefgelaufen — bitte schreibe direkt an kontakt.max.digital@gmail.com"
     },
     "projectTypes": [
       "Neue Webseite",
@@ -578,7 +578,7 @@
         },
         {
           "heading": "Kontakt",
-          "body": "E-Mail: hello@maxdigital.studio\nTelefon: [Platzhalter Telefonnummer]"
+          "body": "E-Mail: kontakt.max.digital@gmail.com\nTelefon: [Platzhalter Telefonnummer]"
         },
         {
           "heading": "Umsatzsteuer-ID",
@@ -613,7 +613,7 @@
       "sections": [
         {
           "heading": "Verantwortlicher",
-          "body": "Max [Platzhalter Nachname]\n[Platzhalter Anschrift]\nE-Mail: hello@maxdigital.studio"
+          "body": "Max [Platzhalter Nachname]\n[Platzhalter Anschrift]\nE-Mail: kontakt.max.digital@gmail.com"
         },
         {
           "heading": "Kontaktformular",
@@ -645,7 +645,7 @@
         },
         {
           "heading": "Deine Rechte",
-          "body": "Du hast jederzeit das Recht auf Auskunft, Berichtigung, Löschung oder Einschränkung der Verarbeitung deiner personenbezogenen Daten sowie ein Widerspruchsrecht gegen die Verarbeitung und ein Recht auf Datenübertragbarkeit. Bei Fragen wende dich an hello@maxdigital.studio. Du hast außerdem das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren."
+          "body": "Du hast jederzeit das Recht auf Auskunft, Berichtigung, Löschung oder Einschränkung der Verarbeitung deiner personenbezogenen Daten sowie ein Widerspruchsrecht gegen die Verarbeitung und ein Recht auf Datenübertragbarkeit. Bei Fragen wende dich an kontakt.max.digital@gmail.com. Du hast außerdem das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren."
         }
       ]
     }
