@@ -85,32 +85,56 @@
       {
         "title": "Business Websites",
         "description": "A professional website that represents your business credibly — from the homepage to the contact form.",
-        "features": ["Custom design", "Clear structure & navigation", "Optimized for every device"]
+        "features": [
+          "Custom design",
+          "Clear structure & navigation",
+          "Optimized for every device"
+        ]
       },
       {
         "title": "Landing Pages",
         "description": "Focused pages built around a single action — perfect for campaigns, product launches, or offers.",
-        "features": ["One clear conversion goal", "Live fast", "A/B-testable"]
+        "features": [
+          "One clear conversion goal",
+          "Live fast",
+          "A/B-testable"
+        ]
       },
       {
         "title": "Website Redesign",
         "description": "Is your website outdated or underperforming? I'll give it a modern, faster foundation.",
-        "features": ["Carries over existing content", "Modern design", "Rebuilt from the ground up"]
+        "features": [
+          "Carries over existing content",
+          "Modern design",
+          "Rebuilt from the ground up"
+        ]
       },
       {
         "title": "Performance Optimization",
         "description": "Slow pages cost you customers. I make sure load times never drive people away.",
-        "features": ["Core Web Vitals", "Image optimization", "Clean, lean code"]
+        "features": [
+          "Core Web Vitals",
+          "Image optimization",
+          "Clean, lean code"
+        ]
       },
       {
         "title": "SEO Fundamentals",
         "description": "The technical foundation that lets Google actually find and understand your site.",
-        "features": ["Clean page structure", "Metadata & sitemaps", "Analytics setup"]
+        "features": [
+          "Clean page structure",
+          "Metadata & sitemaps",
+          "Analytics setup"
+        ]
       },
       {
         "title": "Maintenance & Care",
         "description": "Launch day isn't the finish line. I handle updates, small changes, and day-to-day upkeep.",
-        "features": ["Monthly update windows", "Priority response time", "No long-term lock-in"]
+        "features": [
+          "Monthly update windows",
+          "Priority response time",
+          "No long-term lock-in"
+        ]
       }
     ]
   },
@@ -125,20 +149,38 @@
         "name": "Starter",
         "price": "From $2,400",
         "description": "A focused, professional site for businesses just getting their online presence right.",
-        "features": ["Up to 5 pages", "Fully custom design", "Mobile & tablet optimized", "Basic on-page SEO", "2 week delivery"]
+        "features": [
+          "Up to 5 pages",
+          "Fully custom design",
+          "Mobile & tablet optimized",
+          "Basic on-page SEO",
+          "2 week delivery"
+        ]
       },
       {
         "name": "Growth",
         "price": "From $5,800",
         "description": "A complete site with the content tools and structure to grow with your business.",
-        "features": ["Up to 10 pages", "Custom design system", "Editable content (CMS)", "Advanced SEO & analytics", "30 days of post-launch support"]
+        "features": [
+          "Up to 10 pages",
+          "Custom design system",
+          "Editable content (CMS)",
+          "Advanced SEO & analytics",
+          "30 days of post-launch support"
+        ]
       },
       {
         "name": "Custom",
         "price": "Let's talk",
-        "priceOnRequest": true,
         "description": "For e-commerce, web apps, or anything with requirements beyond a standard site.",
-        "features": ["Unlimited pages", "E-commerce or custom features", "Dedicated project plan", "Ongoing care available", "Flexible timeline"]
+        "features": [
+          "Unlimited pages",
+          "E-commerce or custom features",
+          "Dedicated project plan",
+          "Ongoing care available",
+          "Flexible timeline"
+        ],
+        "priceOnRequest": true
       }
     ]
   },
@@ -191,7 +233,7 @@
   },
   "Why": {
     "eyebrow": "About",
-    "portraitUrl": "",
+    "portraitUrl": "https://ke6v6y1qtrj5hwqg.public.blob.vercel-storage.com/Bewerbungsfoto%20normal.JPG",
     "founderName": "Max",
     "founderRole": "Founder, MAX Digital",
     "leadStatement": "I started MAX Digital because I kept seeing good businesses undersold by bad websites.",
@@ -225,11 +267,31 @@
     "title": "A clear path from idea to launch",
     "description": "No black boxes. You always know what's happening and what's next.",
     "steps": [
-      { "title": "Free intro call", "duration": "15–30 minutes", "description": "We talk about your business, your goals, and whether we're a good fit — no cost, no obligation." },
-      { "title": "First prototype", "duration": "Within 5 days", "description": "You get a real, visible first draft of your website — not a concept deck, not a buzzword pitch, but something you can actually look at and judge." },
-      { "title": "Refinement", "duration": "Until it's right", "description": "The prototype becomes the finished site — in clear feedback rounds, for as long as it genuinely takes. No artificial countdown, no guessing." },
-      { "title": "Launch", "duration": "When you're happy", "description": "Go-live happens once you're genuinely satisfied — with domain, hosting and analytics all set up correctly." },
-      { "title": "Support", "duration": "Ongoing", "description": "I stay reachable after launch — for questions, small updates, or the occasional 'can we change this' request." }
+      {
+        "title": "Free intro call",
+        "duration": "15–30 minutes",
+        "description": "We talk about your business, your goals, and whether we're a good fit — no cost, no obligation."
+      },
+      {
+        "title": "First prototype",
+        "duration": "Within 5 days",
+        "description": "You get a real, visible first draft of your website — not a concept deck, not a buzzword pitch, but something you can actually look at and judge."
+      },
+      {
+        "title": "Refinement",
+        "duration": "Until it's right",
+        "description": "The prototype becomes the finished site — in clear feedback rounds, for as long as it genuinely takes. No artificial countdown, no guessing."
+      },
+      {
+        "title": "Launch",
+        "duration": "When you're happy",
+        "description": "Go-live happens once you're genuinely satisfied — with domain, hosting and analytics all set up correctly."
+      },
+      {
+        "title": "Support",
+        "duration": "Ongoing",
+        "description": "I stay reachable after launch — for questions, small updates, or the occasional 'can we change this' request."
+      }
     ]
   },
   "FAQ": {
@@ -237,13 +299,34 @@
     "title": "Questions you might have",
     "description": "If something isn't covered here, just ask — I usually reply within a day.",
     "items": [
-      { "question": "How long does a typical project take?", "answer": "The first prototype takes 5 days, max — that's a fixed promise, not an estimate. How long it takes to launch after that depends on scope and on you: we keep refining details until you're genuinely happy, instead of forcing a deadline that doesn't fit." },
-      { "question": "What do you need from me to get started?", "answer": "Just clarity on your goals and any existing brand assets you have. I'll guide you through the rest with a short discovery call and a simple questionnaire." },
-      { "question": "How many rounds of revisions do I get?", "answer": "Every project includes structured feedback rounds at both the design and development stages. In practice, most projects need far fewer revisions than expected, because we align on direction early." },
-      { "question": "Do I own the website after it's built?", "answer": "Yes, entirely. Source code, design files and hosting access are all handed over to you at launch. There's no lock-in and nothing held hostage." },
-      { "question": "What technology do you build with?", "answer": "Modern, production-grade code — typically Next.js and React — chosen for speed, reliability and long-term maintainability. No drag-and-drop page builders, no bloated plugins." },
-      { "question": "What happens after launch?", "answer": "I stay reachable for questions and small fixes. If you need ongoing updates, the Growth and Custom plans include support windows, or we can set up a simple monthly arrangement." },
-      { "question": "Do you work with businesses outside your local area?", "answer": "Yes — the entire process is designed to work remotely, over calls, email and a shared project board, regardless of where you're based." }
+      {
+        "question": "How long does a typical project take?",
+        "answer": "The first prototype takes 5 days, max — that's a fixed promise, not an estimate. How long it takes to launch after that depends on scope and on you: we keep refining details until you're genuinely happy, instead of forcing a deadline that doesn't fit."
+      },
+      {
+        "question": "What do you need from me to get started?",
+        "answer": "Just clarity on your goals and any existing brand assets you have. I'll guide you through the rest with a short discovery call and a simple questionnaire."
+      },
+      {
+        "question": "How many rounds of revisions do I get?",
+        "answer": "Every project includes structured feedback rounds at both the design and development stages. In practice, most projects need far fewer revisions than expected, because we align on direction early."
+      },
+      {
+        "question": "Do I own the website after it's built?",
+        "answer": "Yes, entirely. Source code, design files and hosting access are all handed over to you at launch. There's no lock-in and nothing held hostage."
+      },
+      {
+        "question": "What technology do you build with?",
+        "answer": "Modern, production-grade code — typically Next.js and React — chosen for speed, reliability and long-term maintainability. No drag-and-drop page builders, no bloated plugins."
+      },
+      {
+        "question": "What happens after launch?",
+        "answer": "I stay reachable for questions and small fixes. If you need ongoing updates, the Growth and Custom plans include support windows, or we can set up a simple monthly arrangement."
+      },
+      {
+        "question": "Do you work with businesses outside your local area?",
+        "answer": "Yes — the entire process is designed to work remotely, over calls, email and a shared project board, regardless of where you're based."
+      }
     ]
   },
   "Contact": {
@@ -269,8 +352,18 @@
       "successDescription": "Thanks for reaching out — I'll get back to you within one business day.",
       "error": "Something went wrong — please email hello@maxdigital.studio directly."
     },
-    "projectTypes": ["New website", "Redesign", "Brand identity", "Something else"],
-    "budgets": ["Under $3,000", "$3,000–$6,000", "$6,000–$12,000", "$12,000+"]
+    "projectTypes": [
+      "New website",
+      "Redesign",
+      "Brand identity",
+      "Something else"
+    ],
+    "budgets": [
+      "Under $3,000",
+      "$3,000–$6,000",
+      "$6,000–$12,000",
+      "$12,000+"
+    ]
   },
   "Footer": {
     "description": "A boutique web studio designing and building premium websites for businesses that want to be trusted, not just seen.",
